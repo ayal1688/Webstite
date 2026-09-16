@@ -1,0 +1,176 @@
+{
+  "typography": [
+    {
+      "role": "display",
+      "fontFamily": "Archivo",
+      "fontSize": "104px",
+      "fontWeight": "700",
+      "lineHeight": "101.92px",
+      "letterSpacing": "-2.08px",
+      "color": "#E8E6E1",
+      "sampleText": "Three lapswhile youdid one."
+    },
+    {
+      "role": "heading",
+      "fontFamily": "Archivo",
+      "fontSize": "54.4px",
+      "fontWeight": "700",
+      "lineHeight": "53.312px",
+      "letterSpacing": "-1.088px",
+      "color": "#E8E6E1",
+      "sampleText": "One tee. More when it earns it."
+    },
+    {
+      "role": "body",
+      "fontFamily": "Archivo",
+      "fontSize": "18.88px",
+      "fontWeight": "400",
+      "lineHeight": "30.208px",
+      "letterSpacing": "normal",
+      "color": "#BFBDB7",
+      "sampleText": "Ultra-soft heather tees for riding, dirt jumps and standing "
+    },
+    {
+      "role": "heading-3",
+      "fontFamily": "Archivo",
+      "fontSize": "17.92px",
+      "fontWeight": "700",
+      "lineHeight": "21.504px",
+      "letterSpacing": "0.1792px",
+      "color": "#E8E6E1",
+      "sampleText": "Watts tee"
+    },
+    {
+      "role": "link",
+      "fontFamily": "Archivo",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "lineHeight": "27.2px",
+      "letterSpacing": "normal",
+      "color": "#E8E6E1",
+      "sampleText": "Skip to content"
+    },
+    {
+      "role": "label",
+      "fontFamily": "Archivo",
+      "fontSize": "10.56px",
+      "fontWeight": "700",
+      "lineHeight": "16.896px",
+      "letterSpacing": "2.112px",
+      "color": "#8B8A85",
+      "sampleText": "Email address"
+    }
+  ],
+  "spacing": {
+    "observed": [
+      1,
+      2,
+      4,
+      9,
+      10,
+      12,
+      14,
+      15,
+      18,
+      19,
+      20,
+      22,
+      24,
+      26,
+      28
+    ],
+    "baseUnit": 4
+  },
+  "radius": [
+    "2px"
+  ],
+  "shadows": [],
+  "buttons": [
+    {
+      "label": "See the kit",
+      "background": "#D1442B",
+      "backgroundImage": "",
+      "backdropFilter": "",
+      "color": "#FFFFFF",
+      "padding": "15px 30px",
+      "borderRadius": "2px",
+      "border": "2px solid rgb(209, 68, 43)",
+      "boxShadow": "none",
+      "fontSize": "12.16px",
+      "fontWeight": "700",
+      "height": "53.4375px"
+    },
+    {
+      "label": "What this actually is",
+      "background": "transparent",
+      "backgroundImage": "",
+      "backdropFilter": "",
+      "color": "#E8E6E1",
+      "padding": "15px 30px",
+      "borderRadius": "2px",
+      "border": "2px solid rgb(39, 42, 45)",
+      "boxShadow": "none",
+      "fontSize": "12.16px",
+      "fontWeight": "700",
+      "height": "53.4375px"
+    }
+  ],
+  "cards": [
+    {
+      "label": "card",
+      "background": "#0F1011",
+      "backgroundImage": "",
+      "backdropFilter": "",
+      "color": "#E8E6E1",
+      "padding": "0px",
+      "borderRadius": "0px",
+      "border": "0px none rgb(232, 230, 225)",
+      "boxShadow": "none",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "height": "877.844px"
+    },
+    {
+      "label": "card",
+      "background": "transparent",
+      "backgroundImage": "",
+      "backdropFilter": "",
+      "color": "#E8E6E1",
+      "padding": "22px 22px 28px",
+      "borderRadius": "0px",
+      "border": "0px none rgb(232, 230, 225)",
+      "boxShadow": "none",
+      "fontSize": "17px",
+      "fontWeight": "400",
+      "height": "128.469px"
+    }
+  ],
+  "nav": {
+    "label": "navigation",
+    "background": "#0F1011",
+    "backgroundImage": "",
+    "backdropFilter": "blur(12px)",
+    "color": "#E8E6E1",
+    "padding": "18px 0px",
+    "borderRadius": "0px",
+    "border": "",
+    "boxShadow": "none",
+    "fontSize": "17px",
+    "fontWeight": "400",
+    "height": "67px"
+  },
+  "chips": [],
+  "statCells": [],
+  "tabs": [],
+  "backgrounds": [],
+  "glass": [
+    {
+      "backdropFilter": "blur(12px)",
+      "background": "rgba(15, 16, 17, 0.86)",
+      "border": "",
+      "borderRadius": "0px",
+      "boxShadow": "",
+      "area": 85760
+    }
+  ]
+}

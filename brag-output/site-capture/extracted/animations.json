@@ -1,0 +1,52 @@
+{
+  "summary": {
+    "webAnimations": 1,
+    "cssDeclarations": 36,
+    "scrollTargets": 10,
+    "cdpAnimations": 24,
+    "canvases": 0
+  },
+  "namedAnimations": [],
+  "scrollTriggeredElements": 10,
+  "representativeAnimations": [
+    {
+      "type": "CSSTransition",
+      "playState": "running",
+      "animationName": null,
+      "targetSelector": "header.wrap.site-head",
+      "targetRect": {
+        "x": 320,
+        "y": 0,
+        "width": 1280,
+        "height": 67,
+        "top": 0,
+        "right": 1600,
+        "bottom": 67,
+        "left": 320
+      },
+      "keyframes": [
+        {
+          "offset": 0,
+          "easing": "linear",
+          "composite": "auto",
+          "borderBottomColor": "rgb(39, 42, 45)",
+          "computedOffset": 0
+        },
+        {
+          "offset": 1,
+          "easing": "linear",
+          "composite": "auto",
+          "borderBottomColor": "rgba(0, 0, 0, 0)",
+          "computedOffset": 1
+        }
+      ],
+      "timing": {
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+        "direction": "normal"
+      }
+    }
+  ]
+}

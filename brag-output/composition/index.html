@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <title>ORU — Watts tee</title>
+    <script src="assets/vendor/gsap.min.js"></script>
+    <style>
+      @font-face {
+        font-family: "Archivo";
+        src: url("assets/fonts/archivo-400.woff2") format("woff2");
+        font-weight: 400;
+        font-style: normal;
+        font-display: block;
+      }
+      @font-face {
+        font-family: "Archivo";
+        src: url("assets/fonts/archivo-500.woff2") format("woff2");
+        font-weight: 500;
+        font-style: normal;
+        font-display: block;
+      }
+      @font-face {
+        font-family: "Archivo";
+        src: url("assets/fonts/archivo-600.woff2") format("woff2");
+        font-weight: 600;
+        font-style: normal;
+        font-display: block;
+      }
+      @font-face {
+        font-family: "Archivo";
+        src: url("assets/fonts/archivo-700.woff2") format("woff2");
+        font-weight: 700;
+        font-style: normal;
+        font-display: block;
+      }
+
+      /* Palette lifted verbatim from the project's assets/site.css :root */
+      :root {
+        --ink: #0f1011;
+        --bone: #e8e6e1;
+        --smoke: #8b8a85;
+        --signal: #d1442b;
+        --signal-text: #e3603f;
+        --line: #272a2d;
+      }
+
+      body {
+        margin: 0;
+        background: var(--ink);
+      }
+
+      #root {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background: var(--ink);
+        color: var(--bone);
+        font-family: "Archivo", sans-serif;
+        font-weight: 400;
+      }
+
+      .clip {
+        position: absolute;
+        inset: 0;
+      }
+      .inner {
+        position: absolute;
+        inset: 0;
+      }
+
+      /* stacking order: later scenes paint over earlier ones during crossfades */
+      #s1 { z-index: 1; }
+      #s2 { z-index: 2; }
+      #s3 { z-index: 3; }
+      #s4 { z-index: 4; }
+
+      /* ── shared type ── */
+      .eyebrow {
+        font-size: 26px;
+        font-weight: 600;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        color: var(--signal-text);
+        margin: 0;
+      }
+
+      /* ── scene 1: the chart ── */
+      #s1 .inner {
+        display: grid;
+        place-items: center;
+      }
+      #chart {
+        width: 1280px;
+        height: 811px;
+        display: block;
+        overflow: visible;
+      }
+
+      /* ── scene 2: the hero ── */
+      #s2 .inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 150px;
+      }
+      #s2 .eyebrow {
+        margin-bottom: 40px;
+      }
+      .hero-line {
+        display: block;
+        font-size: 152px;
+        font-weight: 700;
+        line-height: 0.98;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        margin: 0;
+      }
+      .hero-line .rust {
+        color: var(--signal);
+      }
+      #spec-strip {
+        display: flex;
+        gap: 46px;
+        margin-top: 64px;
+        padding-top: 30px;
+        border-top: 1px solid var(--line);
+        font-size: 23px;
+        font-weight: 600;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--smoke);
+      }
+
+      /* ── scene 3: what I will not do ── */
+      #s3 .inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 150px;
+      }
+      #s3 .eyebrow {
+        margin-bottom: 64px;
+      }
+      .refusal {
+        font-size: 72px;
+        font-weight: 600;
+        letter-spacing: -0.01em;
+        line-height: 1.1;
+        padding: 30px 0;
+        border-bottom: 1px solid var(--line);
+        margin: 0;
+      }
+
+      /* ── scene 4: the motor + lockup ── */
+      #s4 .inner {
+        display: grid;
+        place-items: center;
+        text-align: center;
+      }
+      #motor-block {
+        position: absolute;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 44px;
+      }
+      #motor-yes {
+        font-size: 104px;
+        font-weight: 700;
+        line-height: 1;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        margin: 0;
+      }
+      #motor-no {
+        font-size: 44px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: var(--smoke);
+        margin: 0;
+      }
+      #lockup {
+        position: absolute;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 34px;
+      }
+      #oru-mark {
+        width: 152px;
+        height: 152px;
+        display: block;
+      }
+      #lockup-product {
+        font-size: 38px;
+        font-weight: 600;
+        letter-spacing: 0.24em;
+        text-transform: uppercase;
+        margin: 0;
+      }
+      #lockup-url {
+        font-size: 27px;
+        font-weight: 400;
+        letter-spacing: 0.14em;
+        color: var(--smoke);
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      id="root"
+      data-composition-id="oru"
+      data-start="0"
+      data-width="1920"
+      data-height="1080"
+      data-duration="22.92"
+    >
+      <!-- ══ Scene 1 — the line ══ -->
+      <section id="s1" class="clip" data-start="0" data-duration="6.56" data-track-index="0">
+        <div class="inner">
+          <!-- geometry copied verbatim from the project's design/watts-chart.svg -->
+          <svg id="chart" viewBox="0 0 3000 1900" xmlns="http://www.w3.org/2000/svg">
+            <line id="axis-y" x1="95" y1="140" x2="95" y2="1830" stroke="#E8E6E1" stroke-width="12" />
+            <line id="axis-x" x1="95" y1="1830" x2="2900" y2="1830" stroke="#E8E6E1" stroke-width="12" />
+            <path
+              id="chart-line"
+              d="M 150.0 1740.0 L 360.0 1545.0 L 455.0 1645.0 L 650.0 1405.0 L 755.0 1515.0 L 960.0 1255.0 L 1075.0 1370.0 L 1240.0 1085.0 L 1320.0 1150.0 L 1380.0 915.4 L 1463.1 1150.0 L 1539.8 995.2 L 1616.5 1150.0 L 1699.6 915.4"
+              fill="none"
+              stroke="#E8E6E1"
+              stroke-width="40"
+              stroke-linejoin="miter"
+              stroke-linecap="butt"
+            />
+            <text
+              id="atts"
+              x="1710"
+              y="1150"
+              font-family="Archivo"
+              font-weight="500"
+              font-size="340"
+              letter-spacing="10"
+              fill="#E8E6E1"
+            >ATTS</text>
+            <text
+              id="are-overrated"
+              x="2601"
+              y="1520"
+              text-anchor="end"
+              font-family="Archivo"
+              font-weight="500"
+              font-size="132"
+              letter-spacing="16"
+              fill="#E8E6E1"
+            >ARE OVERRATED</text>
+          </svg>
+        </div>
+      </section>
+
+      <!-- ══ Scene 2 — three laps ══ -->
+      <section id="s2" class="clip" data-start="5.86" data-duration="5.6" data-track-index="1">
+        <div class="inner">
+          <p class="eyebrow" id="hero-eyebrow">Trailhead &middot; Van &middot; Pub</p>
+          <div>
+            <span class="hero-line" id="hero-l1">Three laps</span>
+            <span class="hero-line" id="hero-l2">While you</span>
+            <span class="hero-line" id="hero-l3">Did <span class="rust">one</span>.</span>
+          </div>
+          <div id="spec-strip">
+            <span>Ultra-soft blend</span>
+            <span>Made to order</span>
+            <span>Shipped worldwide</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ══ Scene 3 — what I will not do ══ -->
+      <section id="s3" class="clip" data-start="11.46" data-duration="5.1" data-track-index="2">
+        <div class="inner">
+          <p class="eyebrow" id="refusal-eyebrow">What I will not do</p>
+          <p class="refusal" id="refusal-1">Call a t-shirt technical</p>
+          <p class="refusal" id="refusal-2">Invent reviews</p>
+          <p class="refusal" id="refusal-3">Run a fake countdown</p>
+        </div>
+      </section>
+
+      <!-- ══ Scene 4 — the motor ══ -->
+      <section id="s4" class="clip" data-start="16.38" data-duration="6.54" data-track-index="3">
+        <div class="inner">
+          <div id="motor-block" data-layout-allow-overlap>
+            <p id="motor-yes">Yes, it has a motor.</p>
+            <p id="motor-no">No, I am not going to argue about it.</p>
+          </div>
+          <div id="lockup" data-layout-allow-overlap>
+            <!-- mark copied verbatim from the project's index.html header -->
+            <svg id="oru-mark" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="60" cy="60" r="47.38" fill="none" stroke="#E8E6E1" stroke-width="17.23" />
+              <rect x="37.60" y="51.21" width="44.80" height="17.58" fill="#D1442B" />
+            </svg>
+            <p id="lockup-product">Watts tee &middot; $48</p>
+            <p id="lockup-url">wearoru.com</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ══ audio ══ -->
+      <audio
+        id="music"
+        data-start="0"
+        data-duration="22.92"
+        data-track-index="10"
+        data-volume="0.15"
+        src="assets/music/oru-bed.mp3"
+      ></audio>
+      <audio
+        id="sfx-w"
+        data-start="4.39"
+        data-duration="0.14"
+        data-track-index="11"
+        data-volume="0.42"
+        src="assets/sfx/impact/impactSoft_medium_002.ogg"
+      ></audio>
+      <audio
+        id="sfx-r1"
+        data-start="12.55"
+        data-duration="0.06"
+        data-track-index="12"
+        data-volume="0.28"
+        src="assets/sfx/ui/rollover2.ogg"
+      ></audio>
+      <audio
+        id="sfx-r2"
+        data-start="13.64"
+        data-duration="0.06"
+        data-track-index="13"
+        data-volume="0.28"
+        src="assets/sfx/ui/rollover2.ogg"
+      ></audio>
+      <audio
+        id="sfx-r3"
+        data-start="14.73"
+        data-duration="0.06"
+        data-track-index="14"
+        data-volume="0.28"
+        src="assets/sfx/ui/rollover2.ogg"
+      ></audio>
+      <audio
+        id="sfx-lock"
+        data-start="21.28"
+        data-duration="0.12"
+        data-track-index="15"
+        data-volume="0.38"
+        src="assets/sfx/interface/bong_001.ogg"
+      ></audio>
+    </div>
+
+    <script>
+      // The chart is all straight segments, so the cumulative polyline length is
+      // exact. Used to split the draw: chart body first, then the W on its own.
+      const PTS = [
+        [150, 1740], [360, 1545], [455, 1645], [650, 1405], [755, 1515],
+        [960, 1255], [1075, 1370], [1240, 1085], [1320, 1150],
+        [1380, 915.4], [1463.1, 1150], [1539.8, 995.2], [1616.5, 1150], [1699.6, 915.4],
+      ];
+      const W_START_INDEX = 9; // (1380, 915.4) — the W's first apex
+
+      function cumulativeLengths(pts) {
+        const out = [0];
+        for (let i = 1; i < pts.length; i++) {
+          const dx = pts[i][0] - pts[i - 1][0];
+          const dy = pts[i][1] - pts[i - 1][1];
+          out.push(out[i - 1] + Math.hypot(dx, dy));
+        }
+        return out;
+      }
+
+      function build() {
+        const chartLine = document.getElementById("chart-line");
+        const total = chartLine.getTotalLength();
+        const cum = cumulativeLengths(PTS);
+        const wStartFraction = cum[W_START_INDEX] / cum[cum.length - 1];
+        const offsetAtW = total * (1 - wStartFraction);
+
+        chartLine.style.strokeDasharray = total;
+        chartLine.style.strokeDashoffset = total;
+
+        const tl = gsap.timeline({ paused: true });
+
+        /* ── Scene 1 — the line ───────────────────────────────────────── */
+        tl.fromTo("#axis-y, #axis-x", { opacity: 0 }, { opacity: 1, duration: 0.7, ease: "power2.out" }, 0.3);
+
+        // the chart body climbs first, steady and matter-of-fact
+        tl.to("#chart-line", { strokeDashoffset: offsetAtW, duration: 2.5, ease: "none" }, 1.0);
+        // then the last climb, on its own, resolving into the W
+        // beat-grid: W completes at 4.39s
+        tl.to("#chart-line", { strokeDashoffset: 0, duration: 0.89, ease: "power1.inOut" }, 3.5);
+
+        tl.fromTo("#atts", { opacity: 0 }, { opacity: 1, duration: 0.34, ease: "power2.out" }, 4.39);
+        tl.fromTo("#are-overrated", { opacity: 0 }, { opacity: 1, duration: 0.36, ease: "power2.out" }, 5.34);
+
+        // slow crossfade out (deadpan: 0.7s)
+        tl.to("#s1 .inner", { opacity: 0, duration: 0.7, ease: "power1.inOut" }, 5.86);
+
+        /* ── Scene 2 — three laps ─────────────────────────────────────── */
+        tl.fromTo("#s2 .inner", { opacity: 0 }, { opacity: 1, duration: 0.7, ease: "power1.inOut" }, 5.86);
+        tl.fromTo("#hero-eyebrow", { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "power2.out" }, 6.30);
+        // beat-grid: headline lines at 6.56 / 7.09 / 7.64
+        tl.fromTo("#hero-l1", { opacity: 0, y: 26 }, { opacity: 1, y: 0, duration: 0.42, ease: "power3.out" }, 6.56);
+        tl.fromTo("#hero-l2", { opacity: 0, y: 26 }, { opacity: 1, y: 0, duration: 0.42, ease: "power3.out" }, 7.09);
+        tl.fromTo("#hero-l3", { opacity: 0, y: 26 }, { opacity: 1, y: 0, duration: 0.42, ease: "power3.out" }, 7.64);
+        // strong cue 10.93s — the spec strip arrives quietly under a settled headline
+        tl.fromTo("#spec-strip", { opacity: 0 }, { opacity: 1, duration: 0.45, ease: "power2.out" }, 10.93);
+
+        /* ── Scene 3 — what I will not do ─────────────────────────────── */
+        // clean cut in: no fade, the video simply changes page
+        tl.fromTo("#refusal-eyebrow", { opacity: 0 }, { opacity: 1, duration: 0.3, ease: "power2.out" }, 11.46);
+        // beat-grid: every OTHER beat (1.09s apart) so each line clears the readable floor
+        tl.fromTo("#refusal-1", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.38, ease: "power3.out" }, 12.55);
+        tl.fromTo("#refusal-2", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.38, ease: "power3.out" }, 13.64);
+        tl.fromTo("#refusal-3", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.38, ease: "power3.out" }, 14.73);
+        tl.to("#s3 .inner", { opacity: 0, duration: 0.18, ease: "power1.inOut" }, 16.38);
+
+        /* ── Scene 4 — the motor ──────────────────────────────────────── */
+        tl.fromTo("#s4 .inner", { opacity: 0 }, { opacity: 1, duration: 0.18, ease: "power1.inOut" }, 16.38);
+        tl.set("#lockup", { opacity: 0 }, 0);
+        tl.set("#motor-block", { opacity: 0 }, 0);
+        // beat-locked: 17.47s (strong cue)
+        tl.to("#motor-block", { opacity: 1, duration: 0.01 }, 17.47);
+        tl.fromTo("#motor-yes", { opacity: 0, y: 22 }, { opacity: 1, y: 0, duration: 0.45, ease: "power3.out" }, 17.47);
+        // beat-locked: 18.56s (strong cue)
+        tl.fromTo("#motor-no", { opacity: 0 }, { opacity: 1, duration: 0.42, ease: "power2.out" }, 18.56);
+
+        // everything clears, then the mark
+        tl.to("#motor-block", { opacity: 0, duration: 0.38, ease: "power1.inOut" }, 20.90);
+        tl.to("#lockup", { opacity: 1, duration: 0.01 }, 21.28);
+        tl.fromTo("#oru-mark", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.out" }, 21.28);
+        tl.fromTo("#lockup-product", { opacity: 0 }, { opacity: 1, duration: 0.45, ease: "power2.out" }, 21.44);
+        tl.fromTo("#lockup-url", { opacity: 0 }, { opacity: 1, duration: 0.45, ease: "power2.out" }, 21.60);
+
+        window.__timelines["oru"] = tl;
+      }
+
+      if (document.fonts && document.fonts.ready) {
+        document.fonts.ready.then(build);
+      } else {
+        build();
+      }
+    </script>
+  </body>
+</html>

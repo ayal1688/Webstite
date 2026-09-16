@@ -1,0 +1,66 @@
+{
+  "files": [
+    {
+      "file": "k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sLySOxKsv4RnUPU.woff2",
+      "family": "Archivo",
+      "rawFamily": "Archivo SemiBold",
+      "subfamily": "Regular",
+      "postscript": "ArchivoSemiBold-Regular",
+      "weight": 600,
+      "style": "normal",
+      "variationAxes": [
+        "wght"
+      ],
+      "identified": true,
+      "isIcon": false
+    },
+    {
+      "file": "k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sLyTOxKsv4RnUPU.woff2",
+      "family": "Archivo",
+      "rawFamily": "Archivo SemiBold",
+      "subfamily": "Regular",
+      "postscript": "ArchivoSemiBold-Regular",
+      "weight": 600,
+      "style": "normal",
+      "variationAxes": [
+        "wght"
+      ],
+      "identified": true,
+      "isIcon": false
+    },
+    {
+      "file": "k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sLydOxKsv4Rn.woff2",
+      "family": "Archivo",
+      "rawFamily": "Archivo SemiBold",
+      "subfamily": "Regular",
+      "postscript": "ArchivoSemiBold-Regular",
+      "weight": 600,
+      "style": "normal",
+      "variationAxes": [
+        "wght"
+      ],
+      "identified": true,
+      "isIcon": false
+    }
+  ],
+  "families": [
+    {
+      "family": "Archivo",
+      "weights": [
+        600
+      ],
+      "variable": true,
+      "fileCount": 3,
+      "files": [
+        "k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sLySOxKsv4RnUPU.woff2",
+        "k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sLyTOxKsv4RnUPU.woff2",
+        "k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sLydOxKsv4Rn.woff2"
+      ]
+    }
+  ],
+  "unidentified": [],
+  "meta": {
+    "generatedAt": "2026-09-16T17:00:44.796Z",
+    "tool": "fontkit"
+  }
+}
