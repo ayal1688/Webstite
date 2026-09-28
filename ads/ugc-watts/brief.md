@@ -15,11 +15,11 @@ Cropped from the owner's mockups. The label close-up tile is left out.
 |---|---|---|
 | `@(img1)` | `img1-front-black.jpg` | black tee, ORU mark on the left chest |
 | `@(img2)` | `img2-back-black.jpg` | black tee, WATTS / ARE OVERRATED back print |
-| (alt) | `img3-front-navy.jpg` | navy colourway, for a second version |
+| — | `img3-front-navy.jpg` | navy colourway — see [Navy version](#navy-version) |
 
 Pass them in this order in `referenceImages`: index 0 = `@(img1)`, 1 = `@(img2)`.
 
-## Seedance prompt
+## Seedance prompt — black
 
 ```
 15 seconds UGC style honest review video, filmed on smartphone, late
@@ -70,7 +70,72 @@ The overall feel is dry, relatable, real — a rider sending a clip to the
 group chat after someone had a go at her e-bike.
 ```
 
-## Timing check (read aloud, relaxed pace)
+## Navy version
+
+Same script, setting and timing as the black version, so the two work as an
+A/B colour test. Only the shirt changes.
+
+| Token | File | Used for |
+|---|---|---|
+| `@(img1)` | `img3-front-navy.jpg` | shirt colour, front mark, the person |
+| `@(img2)` | `img2-back-black.jpg` | **print artwork only** — this is the black shirt |
+
+There's no navy back mockup, so the prompt tells the model to take only the
+artwork from `@(img2)` and keep the shirt navy. Check the turn-around shot: if
+the back comes out black, re-roll it. A navy back mockup would fix this for good.
+
+```
+15 seconds UGC style honest review video, filmed on smartphone, late
+afternoon light at a dirt trailhead car park, phone in one hand at a casual
+selfie angle. The woman from @(img1) — long dark brown hair, natural skin
+with visible texture, light freckles, a hint of shine on her forehead,
+small hoop earrings, a light dusting of trail dust on her forearms —
+wearing the navy blue t-shirt from @(img1) with the small ORU circle mark
+on the left chest. The back of the same navy shirt carries the full back
+print shown in @(img2): a white line chart whose last climb turns into the
+W of "WATTS" above "ARE OVERRATED". Use @(img2) only for the print
+artwork — the shirt is navy blue on the front and the back, never black.
+The navy shirt and its prints must remain visually unchanged in every
+shot. The collar is always framed from the outside — the inside neck label
+is never visible. She stands in a gravel car park — an electric mountain
+bike leaning against the open side door of a van, a helmet hanging off
+the handlebar, a water bottle on the van step, pine trees behind, dusty
+and real.
+
+The video opens with her looking into the camera, deadpan, slightly out of
+breath: "Guy at the trailhead told me my bike's cheating."
+
+Quick jump cut — she turns her back to the camera and looks over her
+shoulder so the full back print on the navy shirt fills the frame. She
+says nothing for a beat, then: "So I got the shirt."
+
+Jump cut — close-up at chest height, she pinches the navy fabric below the
+ORU mark between two fingers and rubs it, collar out of frame: "And
+honestly? ORU's fabric is premium. So soft."
+
+Final shot — back to the original angle, she glances over at the bike,
+then back to camera, half-smiling: "Three laps to his one, by the way."
+She laughs under her breath and the clip ends mid-laugh.
+
+Throughout the video, the tone is dry, unbothered and quietly amused — she
+isn't selling anything, she's telling a friend a story. The pacing is
+natural and unhurried — she leaves a beat of silence after each sentence
+and takes a breath before the next line, never rushing. Each jump cut is
+slightly closer or at a different angle, as if she filmed multiple takes
+and edited the best bits together.
+
+The lighting is low golden sun from one side — one side of her face in
+shadow, no ring light, no filters. The image is slightly imperfect —
+natural phone quality, not colour graded, slight motion blur when she
+turns, auto white balance shift between cuts. The sound is direct from the
+phone mic — her natural voice, light wind, distant car door, no music
+underneath.
+
+The overall feel is dry, relatable, real — a rider sending a clip to the
+group chat after someone had a go at her e-bike.
+```
+
+## Timing check (read aloud, relaxed pace, both versions)
 
 | Beat | Line | ~Time |
 |---|---|---|
@@ -110,4 +175,6 @@ About 26 spoken words, plus one silent beat. It fits 15s without rushing.
 2. Add the Arcads key as an environment variable named `ARCADS_BASIC_AUTH`.
 3. Start a new session and re-run the Arcads pack install
    (`/home/user/arcads-claude-code`, lost when this container resets). Then
-   send this prompt with `img1-front-black.jpg` and `img2-back-black.jpg`.
+   send each prompt with its references:
+   - **black:** `img1-front-black.jpg`, `img2-back-black.jpg`
+   - **navy:** `img3-front-navy.jpg`, `img2-back-black.jpg`
