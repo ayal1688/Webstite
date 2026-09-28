@@ -164,7 +164,7 @@ About 26 spoken words, plus one silent beat. It fits 15s without rushing.
   OVERRATED" comes out wrong, re-roll the clip, or composite the real artwork
   over that shot.
 - **Check the collar.** If a label shows up in any frame, re-roll or crop.
-- **End card** (overlay, last ~2s): `WATTS TEE · $<live price>` and
+- **End card** (overlay, last ~2s): `WATTS TEE · $62.00` and
   `wearoru.com`, plus a small `Ad · AI-generated` in a corner for the whole
   clip. Seedance renders text badly, so this goes on afterwards.
 
