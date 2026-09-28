@@ -178,3 +178,24 @@ About 26 spoken words, plus one silent beat. It fits 15s without rushing.
    send each prompt with its references:
    - **black:** `img1-front-black.jpg`, `img2-back-black.jpg`
    - **navy:** `img3-front-navy.jpg`, `img2-back-black.jpg`
+
+## Free route: talking photo + local edit
+
+Built without Arcads, in `edit/` (black) and `edit-navy/` (navy), 1080×1920, 14.6s.
+
+- **Voiceover:** `edit/assets/vo/vo-full.wav`, local Kokoro TTS, voice `af_heart`.
+  Voice samples to compare are in `edit/assets/vo/test-af_*.wav`.
+- **Previews:** `ugc-watts-black-preview.mp4`, `ugc-watts-navy-preview.mp4`.
+  The talking slot currently shows the still mockup.
+
+To finish:
+1. Upload the front mockup (`img1-front-black.jpg` / `img3-front-navy.jpg`)
+   plus `vo-full.wav` to a talking-photo tool. Export it 9:16, full length,
+   with the audio starting at 0.
+2. Save it as `edit/assets/talk.mp4`, and in `index.html` replace
+   `<img id="front-img" …>` with
+   `<video id="front-img" src="assets/talk.mp4" muted playsinline></video>`.
+   Keep `vo-full.wav` as the audio track.
+3. Run `npx hyperframes check`, then `npx hyperframes render`.
+
+The navy edit cuts to the black back mockup until there's a navy one.
