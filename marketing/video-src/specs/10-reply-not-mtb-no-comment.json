@@ -1,6 +1,6 @@
 {
- "name": "10-reply-motorbike",
- "title": "Reply motorbike",
+ "name": "10-reply-not-mtb-no-comment",
+ "title": "Reply not MTB (no-comment cut)",
  "duration": 15,
  "layers": [
   {
@@ -21,33 +21,38 @@
   },
   {
    "type": "text",
-   "text": "\"How is that not a motorbike?\"",
+   "text": "\"That's not mountain biking.\"",
    "start": 1.2,
    "end": 3.0,
-   "size": 96,
-   "sub": "Fair question."
+   "size": 96
   },
   {
    "type": "text",
-   "text": "No pedaling, no motor.",
+   "text": "Same trails.",
    "start": 3.0,
-   "end": 5.0,
-   "size": 100
+   "end": 4.5,
+   "size": 120
   },
   {
    "type": "text",
-   "text": "Stop pedaling.",
-   "start": 5.0,
-   "end": 7.0,
-   "size": 100,
-   "sub": "The motor stops."
+   "text": "Same mud.",
+   "start": 4.5,
+   "end": 6.0,
+   "size": 120
   },
   {
    "type": "text",
-   "text": "A motorbike doesn't need your legs.",
-   "start": 7.0,
+   "text": "Same crashes.",
+   "start": 6.0,
+   "end": 7.5,
+   "size": 120
+  },
+  {
+   "type": "text",
+   "text": "More laps.",
+   "start": 7.5,
    "end": 9.0,
-   "size": 92
+   "size": 120
   },
   {
    "type": "image",
@@ -67,15 +72,15 @@
    "band": true
   },
   {
-   "type": "label",
-   "text": "mockup",
-   "start": 9.0,
-   "end": 12.0
-  },
-  {
    "type": "endcard",
    "start": 12.0,
    "end": 15
+  },
+  {
+   "type": "label",
+   "text": "mockup",
+   "start": 8.9,
+   "end": 12.1
   }
  ]
 }

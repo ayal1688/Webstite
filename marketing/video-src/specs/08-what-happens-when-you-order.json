@@ -24,7 +24,7 @@
    "start": 2.0,
    "end": 4.5,
    "size": 68,
-   "y": 560,
+   "y": 400,
    "band": true
   },
   {
@@ -37,18 +37,12 @@
   },
   {
    "type": "text",
-   "text": "2. 0\u201310 days on the press.",
+   "text": "2. 0–10 days on the press.",
    "start": 4.6,
    "end": 7.0,
    "size": 76,
-   "y": 560,
+   "y": 420,
    "band": true
-  },
-  {
-   "type": "label",
-   "text": "mockup",
-   "start": 4.5,
-   "end": 7.0
   },
   {
    "type": "image",
@@ -60,19 +54,13 @@
   },
   {
    "type": "text",
-   "text": "3. 2\u20135 days to you in the US.",
+   "text": "3. 2–5 days to you in the US.",
    "start": 7.1,
    "end": 9.5,
    "size": 72,
-   "y": 520,
+   "y": 380,
    "band": true,
    "sub": "Free shipping."
-  },
-  {
-   "type": "label",
-   "text": "mockup",
-   "start": 7.0,
-   "end": 9.5
   },
   {
    "type": "text",
@@ -94,6 +82,12 @@
    "type": "endcard",
    "start": 14.5,
    "end": 18
+  },
+  {
+   "type": "label",
+   "text": "mockup",
+   "start": 4.4,
+   "end": 9.6
   }
  ]
 }

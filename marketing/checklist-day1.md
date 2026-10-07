@@ -2,20 +2,32 @@
 
 About an hour in total.
 
-- **A. The money path** (about 20 min). Do this first.
+- **A. The repo and the money path** (about 22 min). Do this first. A0 comes before anything else.
 - **B. Accounts** (about 25 min, plus the Facebook group list).
-- **C. Quick wins** (about 15 min). Can slip to Day 2.
+- **C. Quick wins** (about 12 min). Can slip to Day 2.
 
-A and B1–B3 are the core 45 minutes. The group list (B4) can finish by Day 3.
+A and B1–B3 are the core 47 minutes. The group list (B4) can finish by Day 3.
 
-**Stop rule:** if anything in section A fails, don't schedule a post yet.
-A post that sends people to a broken checkout is worse than no post.
+**Stop rule:**
+- No posts anywhere and no Reddit account until the GitHub repo shows **Private** (A0).
+- If anything else in section A fails, don't schedule a post yet. A post that sends people to a broken checkout is worse than no post.
 
 "Check in the app" means the menu names may have moved. The goal stays the same.
 
 ---
 
-## A. The money path
+## A. The repo and the money path
+
+### A0. Make the GitHub repo private, before anything is posted (2 min)
+
+- [ ] github.com → your **Webstite** repo → **Settings** → **General** → scroll to **Danger Zone** → **Change visibility** → **Private** → confirm.
+- **Look for:** a "Private" badge next to the repo name.
+- Why: this marketing folder, the anonymous-Reddit plan and the Israel-time schedule are already in that repo, and its history holds retired drafts and claims. The account name points to you. Deleting files doesn't remove them from history. Private does hide them.
+- Until it shows Private: don't push anything more to that repo, don't post anywhere, and don't make the Reddit account.
+
+If it fails:
+- No Settings tab: you're not logged in as the owner. Log in as the account that owns the repo.
+- If GitHub Pages was serving anything from this repo, that stops on a free plan. Nothing in this plan needs it.
 
 ### A1. Northflank boot line (3 min)
 
@@ -132,6 +144,7 @@ If it fails:
 - [ ] Switch to the ORU Page: your profile picture (top right) → **See all profiles** → ORU.
 - [ ] On the Page, under the cover photo: **Add action button** (or Edit action button) → **Shop now** → paste the Facebook link from `utm-links.md` → Save. The option may sit under "Shop" or similar; check in the app.
 - **Look for:** tapping the button opens the Watts tee page.
+- The rest of the Page setup (cover, Intro, About, link preview, pinned intro post) is `facebook.md` §1, on Day 2.
 
 If it fails:
 - "Shop now" isn't offered: use "Learn more" with the same link, and tell Claude.
@@ -141,7 +154,7 @@ If it fails:
 Do all of this as the ORU Page. Never join a group as yourself.
 
 - [ ] Search: "eMTB", "electric mountain bike", "Levo owners", "Trek Rail owners", "Orbea Rise", "Heckler", and "<US state> eMTB".
-- [ ] Open each group's own page. The option to join as a Page only shows there, not in the search results.
+- [ ] Open each group's own page. The option to join as a Page only shows there, not in the search results (check in the app).
   - You can join as ORU: Pages are allowed. Note it.
   - Only your personal profile is offered: skip the group.
 - [ ] Read each group's About → Rules. Note what they say about selling or promotion.
@@ -184,16 +197,6 @@ If it fails:
 - [ ] If it's clean: Strava → your profile settings → the bio or website field (check in the app) → paste the Strava link from `utm-links.md` → Save.
 - Don't post links in Strava clubs (regular members can't), and don't promote in the Strava Community Hub.
 
-### C3. Make the GitHub repo private (2 min)
-
-- [ ] github.com/ayal1688/Webstite → **Settings** → **General** → scroll to **Danger Zone** → **Change visibility** → **Change to private** → confirm.
-- **Look for:** a "Private" badge next to the repo name.
-- Why: the history holds retired drafts and claims, and the account name points to you. Deleting files doesn't remove them from history. Private does hide them.
-
-If it fails:
-- No Settings tab: you're not logged in as the owner. Log in as the account that owns the repo.
-- If GitHub Pages was serving anything from this repo, that stops on a free plan. Nothing in this plan needs it.
-
 ---
 
 ## D. Send Claude the results
@@ -201,6 +204,7 @@ If it fails:
 Copy this, fill it in, send it:
 
 ```
+A0 GitHub repo private: yes / no
 A1 boot line: LIVE / sandbox / other: ___
 A2 alert test reached phone: yes / no. Signup test: yes / no
 A3 card on Printify: yes / no. Neck label: tear-away / printed / can't tell
@@ -212,5 +216,4 @@ B3 Shop now button works: yes / no
 B4 groups listed: ___. Pages allowed in: ___. Joined so far: ___
 C1 Search Console verified: yes / no. Sitemap: success / couldn't fetch / not yet
 C2 Strava: done / skipped (anonymity)
-C3 GitHub repo private: yes / no
 ```

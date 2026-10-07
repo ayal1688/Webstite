@@ -13,8 +13,8 @@
 |---|---|---|---|
 | 0.0–2.0 | I've never held one. | Text card on ink. No asset. | None |
 | 2.0–4.5 | The first order pays for the sample. | Text card | None |
-| 4.5–8.0 | Here's the mockup until then. + label "AI mockup" | Back view on a model, slow push-in. `/home/user/oru-store/assets/products/watts-navy-1.jpg` | None |
-| 8.0–11.0 | Real photos when it arrives. + label "mockup" | Print close-up. `/home/user/oru-store/assets/products/watts-navy-3.jpg` | None |
+| 4.5–8.0 | Here's the mockup until then. + label "AI mockup" | Back view on a model, slow push-in. `oru-store/assets/products/watts-navy-1.jpg` | None |
+| 8.0–11.0 | Real photos when it arrives. Same "AI mockup" label (one label from 4.4 s to 11.1 s, covering both mockups) | Print close-up. `oru-store/assets/products/watts-navy-3.jpg` | None |
 | 11.0–15.0 | End card (below) | Ink background | None |
 
 ## End card
@@ -37,7 +37,7 @@ wearoru.com
 - TikTok: **AI-generated content ON** (photoreal mockups, including an AI model). Can't be changed after posting.
 - Audio: none, or a Commercial Music Library track added inside TikTok. Never a trending song or another user's sound.
 - Facebook Page Reel: upload the same music-free file, not a TikTok download. Add the Facebook link line from captions.md. If Facebook offers an AI label on upload, turn it on (check in the app).
-- Pin the standard comment from captions.md.
+- After it's live: next morning (Israel), first thing in your TikTok comments block, post the standard comment from captions.md on it and pin it. You can't comment on a scheduled post before it goes live. If you posted from the phone, pin it right away.
 - If TikTok flags the disclosure, answer within 24 hours.
 
 ## Do not

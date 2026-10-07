@@ -15,26 +15,29 @@ Disclosure: this is my own small brand, ORU.
 
 | When | What |
 |---|---|
-| Day 1 · Thu Oct 8 | Page setup (section 1). Start the group list (section 2). |
-| Days 1–7 · Oct 8 – Oct 14 | Join groups as the Page. Take part. No links, no shirt (section 3). |
+| Day 1 · Thu Oct 8 | Shop now button (`checklist-day1.md` B3). Start the group list (section 2). |
+| Day 2 · Fri Oct 9 | The rest of the Page setup (section 1, about 30 minutes). |
+| Days 1–7 · Oct 8 – Oct 14 | Join groups as the Page. Take part with comments only. No posts, no links, no shirt (section 3). |
 | Day 7 · Wed Oct 14 | Checkpoint: Page set up, in at least 5 groups, 0 links posted in groups. |
 | Days 8–14 · Oct 15 – Oct 21 | Ask the admins, 2–3 groups a day (section 4). No group posts yet. |
 | Day 14 · Wed Oct 21 | Checkpoint: every admin ask sent. Every yes and no written down. |
 | Days 15–30 · Oct 22 – Nov 6 | One post in each group that said yes, spaced out (section 5). |
-| Day 30 · Fri Nov 6 | Count posts per group, visits with `utm_source=facebook`, and sales from Facebook. |
+| Day 30 · Fri Nov 6 | Count posts per group, Page insights link + button clicks, and NEW SALE messages with `source: facebook`. |
 
 ---
 
-## 1. Page setup checklist (Day 1, about 30 minutes)
+## 1. Page setup checklist (Day 2, about 30 minutes)
+
+The Shop now button is done on Day 1 (`checklist-day1.md` B3). This is the rest. `calendar.md` has it on Day 2.
 
 Switch to the ORU Page first: your profile picture (top right) → See all profiles → ORU (check in the app).
 
 - [ ] **Name:** ORU. **Category:** the closest clothing-brand option (check in the app).
-- [ ] **Profile picture:** the ORU mark, `/home/user/oru-store/assets/icon-512.png`. Check that the round crop doesn't cut the ring.
-- [ ] **Cover photo:** `/home/user/Webstite/marketing/community-images/fb-cover-mockup.jpg`. It is the back print, with "MOCKUP · not a photo" printed in the top-right corner.
-  - Check the cover on desktop and on your phone. If the label is cut off, drag the image until it shows.
+- [ ] **Profile picture:** the ORU mark, `oru-store/assets/icon-512.png`. Check that the round crop doesn't cut the ring.
+- [ ] **Cover photo:** `community-images/fb-cover-mockup.jpg`. It is the back print, with "MOCKUP · not a photo" printed at the top center, inside the area both desktop and phone should show.
+  - Check the cover on desktop and on your phone (check in the app). If the label is cut off anywhere, don't use the cover. Tell Claude and ask for a new crop.
   - In the cover photo's description, write: `Mockup of the Watts tee back print. Not a photo. Real photos when the first sample arrives.`
-- [ ] **Action button:** Shop now → `https://wearoru.com/product-watts?utm_source=facebook&utm_medium=social&utm_campaign=launch`. If "Shop now" isn't offered, use "Learn more" with the same link (check in the app). Tap it once to check it opens the Watts tee page.
+- [ ] **Action button:** done on Day 1 (`checklist-day1.md` B3). Tap it once more to check it opens the Watts tee page. If it's missing: Shop now → `https://wearoru.com/product-watts?utm_source=facebook&utm_medium=social&utm_campaign=launch`, or "Learn more" with the same link if Shop now isn't offered (check in the app).
 - [ ] **Website field:** the same Facebook link.
 - [ ] **Email:** support@wearoru.com.
 - [ ] **Phone and street address:** leave them empty, unless the app won't save without them.
@@ -49,7 +52,7 @@ Switch to the ORU Page first: your profile picture (top right) → See all profi
 
 ### Pinned intro post (your own Page)
 
-Image: `/home/user/Webstite/marketing/community-images/watts-black-back-mockup.jpg` (labeled "MOCKUP · not a photo").
+Image: `community-images/watts-black-back-mockup.jpg` (labeled "MOCKUP · not a photo").
 
 ```
 If you ride an e-MTB, you've been told it's cheating. I made a shirt about it.
@@ -78,7 +81,7 @@ https://wearoru.com/product-watts?utm_source=facebook&utm_medium=social&utm_camp
 ### Join as the Page
 
 1. Switch to the ORU Page first.
-2. Open the group's own page. The option to join as a Page only shows there, not in the search results.
+2. Open the group's own page. The option to join as a Page only shows there, not in the search results (check in the app).
 3. If you can join as ORU, Pages are allowed. Join.
 4. If only your personal profile is offered, the admins don't allow Pages. Skip the group. Never join as yourself. It would tie you to ORU.
 5. If the group asks membership questions, answer honestly: ORU is a one-person shirt brand, and you ride an e-MTB. Don't hide the brand.
@@ -108,6 +111,7 @@ Fill this in as you go. It is the same list as `checklist-day1.md` B4, with the 
 - As the ORU Page only.
 - No links. No shirt, no price, no slogan, no "three laps".
 - About 10 minutes a day. Two or three useful comments.
+- Comments only. No posts from the Page in any group this week, not even a trail clip.
 - Never the same comment twice.
 
 **Kinds of comments that help** (describe, not scripts; write each one yourself, about the post in front of you):
@@ -115,7 +119,7 @@ Fill this in as you go. It is the same list as `checklist-day1.md` B4, with the 
 - **Ride clips and new-bike posts.** Say one specific thing you noticed. Ask a real question.
 - **"Is it cheating?" threads.** One calm, dry point. No shirt. If it gets heated, leave.
 - **Trail access and etiquette.** Take it seriously. Rules differ from place to place, so speak only for what you know.
-- **Your own trail clip.** Post one faceless clip in a group, if its rules allow member videos. No shirt, no link, no logo.
+- **Your own trail clip:** not in week 1. The Page is the author, and its profile has a Shop now button, so a Page post in a group comes only after that group's admins say yes. It starts with the disclosure line and counts as that group's one post (section 5).
 
 Skip posts where you have nothing to add. A comment that only says "Nice!" builds nothing.
 
@@ -153,9 +157,9 @@ If it's a no, no problem. Thanks for running the group.
 
 ## 5. The group post (Days 15–30, only where an admin said yes)
 
-**When:** at most one group post every 3–4 days, at 12:00 pm ET. That is 19:00 Israel on Oct 22–23, 18:00 Israel from Oct 24 to Oct 31, and 19:00 Israel from Nov 1 to Nov 6. `calendar.md` has the days (Oct 22, Oct 26, Oct 29, Nov 2, Nov 5). The time is a suggestion, not research. Skip Tue Nov 3 (US Election Day).
+**When:** at most one group post every 3–4 days, at 12:00 pm ET. That is 19:00 Israel on Oct 22–24, 18:00 Israel from Sun Oct 25 to Oct 31, and 19:00 Israel from Nov 1 to Nov 6. (Israel's clocks go back at 2:00 on Sun Oct 25.) `calendar.md` has the days (Oct 22, Oct 26, Oct 29, Nov 2, Nov 5). The time is a suggestion, not research. Skip Tue Nov 3 (US Election Day).
 
-**Image:** `/home/user/Webstite/marketing/community-images/watts-black-back-mockup.jpg` or `watts-navy-back-mockup.jpg` in the same folder. Both have "MOCKUP · not a photo" printed on them. Never an unlabeled mockup.
+**Image:** `community-images/watts-black-back-mockup.jpg` or `watts-navy-back-mockup.jpg` in the same folder. Both have "MOCKUP · not a photo" printed on them. Never an unlabeled mockup.
 
 **Write each post fresh.** The draft is the facts and the shape. Rewrite the first sentence after the disclosure for that group, and change the order or wording of the rest. Never post the same text in two groups.
 
@@ -194,7 +198,7 @@ Questions welcome, including about the price.
 4. **Only in groups that said yes.** In promo-day groups, only on the promo day.
 5. **No bumping, no reposting,** no "bump" comments.
 6. **No asking for likes, shares or follows.** No contests, giveaways or "tag a friend".
-7. **Reply to every comment within one business day.** Use `replies.md` for the facts, in your own words. Any reply about the shirt starts with the disclosure line.
+7. **Reply to every comment within one business day.** Use `replies.md` for the facts, in your own words. Never paste its blocks. Any reply about the shirt starts with the disclosure line.
 8. **If the post is removed:** don't repost. One polite note to the admin at most, then move on.
 9. **Week 1: no links anywhere in groups.**
 
@@ -202,14 +206,14 @@ Questions welcome, including about the price.
 
 ## 6. Reels (the same videos as TikTok)
 
-- **The file:** upload the clean export from `/home/user/Webstite/marketing/videos/`. Never a file downloaded from TikTok. It carries a TikTok watermark, and Instagram has said Reels with other apps' watermarks are shown less.
+- **The file:** upload the clean export from `videos/`. Never a file downloaded from TikTok. It carries a TikTok watermark, and Instagram has said Reels with other apps' watermarks are shown less.
 - **Music:** the files in `videos/` have no sound. If you add music, use only Meta Sound Collection or your own audio. Never TikTok Commercial Music Library tracks: they are cleared for TikTok only. Never a trending song.
 - **Mockups:** a Reel that shows the photoreal mockups keeps the on-screen "mockup" text. If Facebook offers an AI label when you upload, turn it on (check in the app).
 - **Caption:** the same caption as TikTok, from `captions.md`, plus the Facebook link line from the same file.
 - **When:** the same day as the TikTok post, scheduled in Meta Business Suite (free) for 7:00 pm ET. That is 2:00 Israel the next day on Oct 8–23, 1:00 on Oct 24–31, and 2:00 on Nov 1–6. `calendar.md` has each day.
-- **For reply videos** (07, 10 and later replies): upload the no-comment version. The TikTok comment sticker doesn't belong on Facebook.
+- **For reply videos** (07, 10 and later replies): upload the no-comment cut (`videos/07-reply-cheating-no-comment.mp4`, `videos/10-reply-motorbike-no-comment.mp4`, or the `-alt` / `not-mtb` cut that matches the TikTok one). The TikTok comment sticker doesn't belong on Facebook.
 - **Sharing a Reel into a group** counts as a group post. Same rules as section 5: only with an admin's yes, disclosure line first.
-- **Comments on your own Page:** reply with `replies.md`. You don't need the disclosure line on your own Page, because it's plainly your brand.
+- **Comments on your own Page:** use the facts in `replies.md`, in your own words. Don't paste the TikTok blocks. You don't need the disclosure line on your own Page, because it's plainly your brand.
 
 ---
 

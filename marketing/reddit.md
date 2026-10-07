@@ -18,12 +18,12 @@ Disclosure: this is my own small brand, ORU.
 | 2–9 | Fri Oct 9 – Fri Oct 16 | 3–5 comments a day. Post 1 trail clip or bike photo (optional). |
 | 7 | Wed Oct 14 | Checkpoint: about 30 comments. Rules table filled in. Zero ORU. |
 | 10 | Sat Oct 17 | Send the modmail to r/eMountainBike, and a separate one to r/emtb if it exists and is active (section 3). |
-| 11–14 | Sun Oct 18 – Wed Oct 21 | 3–5 comments a day. Still zero ORU in public. |
-| 14 | Wed Oct 21 | Checkpoint: about 45–60 comments, 0 public ORU mentions, modmail sent. |
+| 11–14 | Sun Oct 18 – Wed Oct 21 | 3–5 comments a day. Still zero ORU anywhere on Reddit. |
+| 14 | Wed Oct 21 | Checkpoint: about 45–60 comments, 0 ORU mentions anywhere (modmail included), modmail sent. |
 | 15+ | Thu Oct 22 onward | Keep commenting. If a mod said yes: the one post (section 4). `calendar.md` puts it on Tue Oct 27. |
-| 30 | Fri Nov 6 | Count visits with `utm_source=reddit` and any sale alerts from Reddit. |
+| 30 | Fri Nov 6 | Note the post's views/insights, and count NEW SALE messages with `source: reddit`. |
 
-**When to comment:** one sitting a day, whenever suits you. If you want a default: 2:00 pm ET (21:00 Israel) from Oct 8 to Oct 23, 3:00 pm ET (21:00 Israel) from Oct 24 to Oct 31, and 2:00 pm ET (21:00 Israel) from Nov 1 to Nov 6. US threads are active then. This is a convenience, not a Reddit rule.
+**When to comment:** one sitting a day, whenever suits you. If you want a default: 2:00 pm ET (21:00 Israel) from Oct 8 to Sat Oct 24, 3:00 pm ET (21:00 Israel) from Sun Oct 25 to Oct 31, and 2:00 pm ET (21:00 Israel) from Nov 1 to Nov 6. (Israel's clocks go back at 2:00 on Sun Oct 25, so daytime Sat Oct 24 is still ET + 7 h.) US threads are active then. This is a convenience, not a Reddit rule.
 
 ---
 
@@ -73,7 +73,7 @@ Disclosure: this is my own small brand, ORU.
 
 ### The rules for these 14 days
 
-- **Zero ORU in public.** Not the name, not the shirt, not the price, not the slogan, not "three laps". No hints like "I'm working on something". The Day 10 modmail is the only exception, because it is private and asks permission.
+- **Zero ORU anywhere on Reddit through Day 14, modmail included.** Not the name, not the shirt, not the price, not the slogan, not "three laps". No hints like "I'm working on something". The Day 10 modmail asks permission without naming the brand (section 3).
 - **No links.** None at all.
 - **3–5 comments a day.** Steady. Not 20 on Day 1 and then nothing.
 - **Mostly r/eMountainBike and r/ebikes.** Some in r/MTB and r/mountainbiking.
@@ -124,7 +124,7 @@ Keep a simple log. It shows you the ratio later.
 
 **How:** use the sub's "Message the mods" option, so it goes to the whole mod team (check in the app). Not a public post. Not a DM to one mod.
 
-**Image:** if modmail lets you attach an image (check in the app), attach the flat artwork: `/home/user/oru-store/design/preview-on-black.jpg`. If it doesn't, the last line of the draft offers to send it.
+**Image:** if modmail lets you attach an image (check in the app), attach the flat artwork: `oru-store/design/preview-on-black.jpg`. It shows only the print, no brand name. If it doesn't, the last line of the draft offers to send it.
 
 **Fill in** the one bracket with the truth, then send.
 
@@ -139,15 +139,15 @@ Question before I post: a shirt I made (my own brand)
 ```
 Hi mods,
 
-I've been riding an e-MTB for [how long, truthfully] and commenting here for the past couple of weeks.
+I've been riding an e-MTB for [how long, truthfully] and commenting here for about the last ten days.
 
-I made a shirt for e-MTB riders who get told it's cheating. The back print is a line chart that climbs and turns into the word WATTS, above ARE OVERRATED. It's my own small print-on-demand brand, ORU.
+I made a shirt for e-MTB riders who get told it's cheating. The back print is a line chart that climbs and turns into the word WATTS, above ARE OVERRATED. It's my own small print-on-demand brand. I'd name it in the post.
 
 To be upfront:
 - The images are mockups. No sample exists yet, so I haven't held one.
 - It's printed on demand in the US. From $56, free shipping.
 
-May I post it once, as an "I made this" post? The first line would be "Disclosure: this is my own small brand, ORU." I'm happy to skip the link if you'd prefer, and to use whatever flair or thread you point me to.
+May I post it once, as an "I made this" post? The first line of the post would be a plain disclosure that it's my own brand. I'm happy to skip the link if you'd prefer, and to use whatever flair or thread you point me to.
 
 If the answer is no, that's fine. I'll keep it out of the sub and keep riding and commenting as before.
 
@@ -159,11 +159,11 @@ Thanks for running the place.
 ### After you send it
 
 - **Wait for a clear yes.** No answer means no. Don't post.
-- **A yes before Day 15 still waits.** The warm-up rule is zero ORU in public until Wed Oct 21. Post on Thu Oct 22 or later.
+- **A yes before Day 15 still waits.** The warm-up rule is zero ORU anywhere on Reddit until Wed Oct 21. Post on Thu Oct 22 or later.
 - **Write down what they said:** link or no link, which flair, which day.
 - **No answer by Tue Oct 27 (Day 20):** you may send one short, polite follow-up. That's all. Still no answer means no.
 
-**r/emtb (only if it exists and is active, and its rules don't ban promotion):** you may send its mods a note on the same day. Write it fresh, in your own words, with the same facts. Don't paste the message above. There is still only one ORU post in the 30 days. If both subs say yes, post in r/eMountainBike only, and send r/emtb a short thank-you saying you've kept it to one place.
+**r/emtb (only if it exists and is active, and its rules don't ban promotion):** you may send its mods a note on the same day. Write it fresh, in your own words, with the same facts. Don't paste the message above. Don't name ORU in it either: the zero-ORU rule runs through Day 14, modmail included. There is still only one ORU post in the 30 days. If both subs say yes, post in r/eMountainBike only, and send r/emtb a short thank-you saying you've kept it to one place.
 
 ---
 
@@ -179,7 +179,7 @@ Thanks for running the place.
 
 This is a guess, not a Reddit rule: a morning post gives US riders the whole day to see it. Plan to be around to answer for the next 24 hours. Skip Tue Nov 3 (US Election Day). Feeds will be full of politics.
 
-**Image:** one image. Use `/home/user/Webstite/marketing/community-images/watts-black-back-mockup.jpg` ("MOCKUP · not a photo" is printed on it). If the sub allows a gallery, you can add `/home/user/oru-store/design/preview-on-black.jpg` (the flat artwork). Use only what the mods are fine with.
+**Image:** one image. Use `community-images/watts-black-back-mockup.jpg` ("MOCKUP · not a photo" is printed on it). If the sub allows a gallery, you can add `oru-store/design/preview-on-black.jpg` (the flat artwork). Use only what the mods are fine with.
 
 **Flair:** whatever the mods told you. **Brand Affiliate tag:** on, if offered.
 
@@ -238,8 +238,8 @@ Questions welcome, including "why $56". I'll answer them here.
 4. **Never ask for votes,** on Reddit or anywhere else. No "go upvote", no friends voting, no link to the post from TikTok or Facebook.
 5. **r/MTB and r/mountainbiking are for participation only,** unless their written rules allow creator or merch posts. Even then, the one post in these 30 days goes to the sub whose mods said yes.
 6. **r/ebikes is for participation only** in these 30 days.
-7. **Days 1–14: zero ORU mentions in public.** The private Day 10 modmail is the only exception.
-8. **From Day 15: at most 1 ORU mention per 15–20 comments,** across the account and in each sub. Most weeks that means zero. Mention ORU only when someone asks you directly, and only where the sub's rules allow. Never bring it up yourself in someone else's thread. The first line is always the disclosure line. Add a link only if the sub allows links and the person asked.
+7. **Days 1–14: zero ORU anywhere on Reddit, modmail included.** The Day 10 modmail asks permission without naming the brand.
+8. **From Day 15: no ORU in comments unless someone asks you directly, where the sub allows it. Disclosure line first, no link.** Most weeks that means zero. Never bring it up yourself in someone else's thread. Never add a link in a comment. If someone asks where to buy, point them to the post, or say the name. The only exception is the mod-requested link comment under your own approved post (section 4). Replies under your own post follow section 4.
 9. **Your own words, every time.** No pasted comments. No AI-written comments.
 10. **No discount codes, giveaways, countdowns or "limited" talk.** The shirt is never on sale.
 11. **No messages to strangers** about the shirt.

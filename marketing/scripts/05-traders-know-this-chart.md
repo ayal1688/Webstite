@@ -11,11 +11,11 @@
 
 | Time | On-screen text | Visual + asset | Audio |
 |---|---|---|---|
-| 0.0–2.0 | Traders know this chart. | Axes appear, line starts drawing. `/home/user/oru-store/design/watts-chart.svg` (animate the path stroke; hide both text elements for now) | None |
+| 0.0–2.0 | Traders know this chart. | Axes appear, line starts drawing. `oru-store/design/watts-chart.svg` (animate the path stroke; hide both text elements for now) | None |
 | 2.0–4.0 | Higher highs. Higher lows. | Line keeps climbing in steps | None |
 | 4.0–6.0 | So do e-MTB riders. | Last climb becomes the W. "ATTS" fades in, so it reads WATTS. Same SVG. | None |
 | 6.0–8.5 | (none) | "ARE OVERRATED" fades in. Hold the full artwork. Same SVG. | None |
-| 8.5–9.5 | Back print. Black or navy. | Flat artwork. `/home/user/oru-store/design/preview-on-black.jpg` | None |
+| 8.5–9.5 | Back print. Black or navy. | Flat artwork. `oru-store/design/preview-on-black.jpg` | None |
 | 9.5–12.0 | End card (below) | Ink background | None |
 
 ## End card
@@ -38,7 +38,7 @@ wearoru.com
 - TikTok: AI-generated content: not needed. This video has no photoreal mockups. If you add any watts-*.jpg shot, turn it ON.
 - Audio: none, or a Commercial Music Library track added inside TikTok. Never a trending song or another user's sound.
 - Facebook Page Reel: upload the same music-free file, not a TikTok download. Add the Facebook link line from captions.md.
-- Pin the standard comment from captions.md.
+- After it's live: next morning (Israel), first thing in your TikTok comments block, post the standard comment from captions.md on it and pin it. You can't comment on a scheduled post before it goes live. If you posted from the phone, pin it right away.
 - If TikTok flags the disclosure, answer within 24 hours.
 
 ## Do not

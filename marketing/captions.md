@@ -1,13 +1,18 @@
 # Captions and profile text
 
-All 12 captions in one place, plus the bio, the Facebook Page About text and the links. US spelling. Copy the gray blocks as they are.
+All 12 captions in one place, plus the bio, the Facebook Page About text, the links and the search phrases. US spelling. Copy the gray blocks as they are.
 
 ## How to use
 
-- **TikTok:** paste the caption and the hashtags. There is no clickable link yet, so never write "link in bio". Pin the standard comment (below) on every post.
+- **TikTok:** paste the caption and the hashtags. There is no clickable link yet, so never write "link in bio".
+- **Pinned comment:** you can't comment on a scheduled post before it's live. Next morning (Israel), first thing in your TikTok comments block, post the standard comment (below) on last night's video and pin it. If you posted from the phone, do it right away.
 - **Hashtags:** check each one in the TikTok search bar before you use it (check volume in app). If a tag looks dead, swap it for another from this list: #emtb #ebike #ebikelife #mtb #mountainbiking #mtbhumor.
 - **Facebook Page Reel:** paste the same caption, then the Facebook link line. Hashtags are optional there. Upload the music-free file, never a TikTok download.
-- **Instagram / YouTube Shorts (optional):** same caption, plus that channel's link line below.
+- **Instagram / YouTube Shorts (optional):** same caption, plus that channel's link line below. And:
+  - Upload the clean file from `videos/`, never a TikTok download.
+  - If the platform offers an AI label on upload, turn it on for any video with a photoreal mockup, the same ones as on TikTok (check in the app).
+  - Sound: only that platform's own licensed library, your own audio, or none. Never TikTok Commercial Music Library tracks (they're cleared for TikTok only), never a trending song or someone else's sound.
+  - The on-screen "mockup" label stays in. Don't crop it out.
 - **Toggles on every TikTok post:** Disclose commercial content → Your brand. AI-generated content ON for every script except 05 (each script file says which).
 
 ## Links (one per channel)
@@ -17,7 +22,7 @@ All 12 captions in one place, plus the bio, the Facebook Page About text and the
 | TikTok bio | Plain text `wearoru.com`. If a Website field appears later: `https://wearoru.com/product-watts?utm_source=tiktok&utm_medium=social&utm_campaign=launch` |
 | Facebook Page "Shop now" button and posts | `https://wearoru.com/product-watts?utm_source=facebook&utm_medium=social&utm_campaign=launch` |
 | Instagram bio link (optional) | `https://wearoru.com/product-watts?utm_source=instagram&utm_medium=social&utm_campaign=launch` |
-| YouTube Shorts description (optional) | `https://wearoru.com/product-watts?utm_source=youtube&utm_medium=social&utm_campaign=launch` |
+| YouTube channel links (optional; check in the app whether links in Shorts descriptions are clickable) | `https://wearoru.com/product-watts?utm_source=youtube&utm_medium=social&utm_campaign=launch` |
 | Strava profile | `https://wearoru.com/product-watts?utm_source=strava&utm_medium=profile&utm_campaign=launch` |
 
 Reddit has its own link. It goes only in the one approved post (see reddit.md), never here.
@@ -54,6 +59,18 @@ Questions: support@wearoru.com. I reply within one business day.
 
 Note for you, not for the Page: Facebook's Page Transparency may show the country the Page is run from. That matches the site's own About page, so there is nothing to change.
 
+## Search phrases
+
+TikTok search reads captions, on-screen text and hashtags (vendor guides say so; TikTok publishes no ranking weights). The captions below already use these US phrases. Keep them when you write a new caption:
+
+- ebike cheating
+- emtb shirt
+- funny ebike shirt
+- mountain bike gift
+- e-MTB
+
+Type each one into the TikTok search bar first and see what comes up (check in the app). Use them in plain sentences, not as a keyword pile.
+
 ## Pinned comment (TikTok, every post)
 
 ```
@@ -72,7 +89,7 @@ If links in Reel captions aren't clickable, the Page's "Shop now" button still c
 
 Instagram: set the bio link first, then end the caption with `wearoru.com (link in bio)`.
 
-YouTube Shorts description:
+YouTube: put the link in the channel links. You can also end the Shorts description with it, but check in the app whether links there are clickable.
 
 ```
 https://wearoru.com/product-watts?utm_source=youtube&utm_medium=social&utm_campaign=launch
@@ -146,7 +163,7 @@ wearoru.com
 
 ### 07 · Reply: "that's cheating"
 
-Works for the reply version and the no-comment version.
+Works for every 07 file: the TikTok reply cut, its `-alt`, and the no-comment cuts (Facebook).
 
 ```
 Ebike cheating? Cheating at what? No medal at the bottom. Just more laps.
@@ -180,7 +197,7 @@ wearoru.com
 
 ### 10 · Reply: "how is that not a motorbike?"
 
-Motorbike version:
+Motorbike version (`10-reply-motorbike-reply.mp4`; Facebook: `10-reply-motorbike-no-comment.mp4`):
 
 ```
 Is an ebike a motorbike? Mine only helps when I pedal.
@@ -190,7 +207,7 @@ wearoru.com
 #emtb #ebike #mtb #ebikelife
 ```
 
-Swap version ("it's not mountain biking"):
+Swap version, "it's not mountain biking" (`10-reply-not-mtb-reply.mp4`; Facebook: `10-reply-not-mtb-no-comment.mp4`):
 
 ```
 Same trails. Same mud. More laps. Still mountain biking.

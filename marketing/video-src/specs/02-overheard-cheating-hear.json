@@ -1,0 +1,76 @@
+{
+ "name": "02-overheard-cheating-hear",
+ "title": "Overheard cheating (riders hear)",
+ "duration": 13,
+ "layers": [
+  {
+   "type": "chart",
+   "line_only": true,
+   "start": 0,
+   "draw_end": 3.3,
+   "end": 3.5,
+   "opacity": 1
+  },
+  {
+   "type": "text",
+   "text": "Things e-MTB riders hear:",
+   "start": 0,
+   "end": 2.5,
+   "size": 48,
+   "color": "var(--signal-text)",
+   "y": -560
+  },
+  {
+   "type": "text",
+   "text": "\"Your bike's cheating.\"",
+   "start": 0.1,
+   "end": 2.5,
+   "size": 100,
+   "y": -400
+  },
+  {
+   "type": "text",
+   "text": "Okay.",
+   "start": 2.5,
+   "end": 3.5,
+   "size": 120,
+   "y": -400
+  },
+  {
+   "type": "image",
+   "src": "/home/user/oru-store/assets/products/watts-black-3.jpg",
+   "start": 3.4,
+   "end": 7.1,
+   "zoom": 1.06,
+   "fit": "contain"
+  },
+  {
+   "type": "text",
+   "text": "So I made a shirt about it.",
+   "start": 3.6,
+   "end": 7.0,
+   "size": 84,
+   "y": 420,
+   "band": true
+  },
+  {
+   "type": "image",
+   "src": "/home/user/oru-store/design/preview-on-black.jpg",
+   "start": 6.9,
+   "end": 9.6,
+   "zoom": 1.06,
+   "fit": "contain"
+  },
+  {
+   "type": "endcard",
+   "start": 9.5,
+   "end": 13
+  },
+  {
+   "type": "label",
+   "text": "mockup",
+   "start": 3.4,
+   "end": 7.1
+  }
+ ]
+}

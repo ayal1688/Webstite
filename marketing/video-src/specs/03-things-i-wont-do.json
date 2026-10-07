@@ -20,7 +20,8 @@
    "type": "text",
    "text": "Fake countdowns.",
    "start": 3.0,
-   "end": 4.5
+   "end": 4.5,
+   "size": 100
   },
   {
    "type": "text",
@@ -53,15 +54,15 @@
    "band": true
   },
   {
-   "type": "label",
-   "text": "mockup",
-   "start": 8.0,
-   "end": 10.5
-  },
-  {
    "type": "endcard",
    "start": 10.5,
    "end": 13.5
+  },
+  {
+   "type": "label",
+   "text": "mockup",
+   "start": 7.9,
+   "end": 10.6
   }
  ]
 }

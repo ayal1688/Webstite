@@ -1,0 +1,76 @@
+{
+ "name": "07-reply-cheating-reply-alt",
+ "title": "Reply cheating (reply cut, alt)",
+ "duration": 13,
+ "layers": [
+  {
+   "type": "chart",
+   "line_only": true,
+   "start": 0,
+   "draw_end": 3.8,
+   "end": 4.0,
+   "opacity": 0.2,
+   "y": 560
+  },
+  {
+   "type": "text",
+   "text": "Cheating at what?",
+   "start": 0,
+   "end": 2.0,
+   "size": 110,
+   "y": 80
+  },
+  {
+   "type": "text",
+   "text": "There's no medal at the bottom.",
+   "start": 2.0,
+   "end": 4.0,
+   "size": 92
+  },
+  {
+   "type": "image",
+   "src": "/home/user/oru-store/design/preview-on-black.jpg",
+   "start": 3.9,
+   "end": 6.6,
+   "zoom": 1.08,
+   "fit": "contain"
+  },
+  {
+   "type": "text",
+   "text": "Same trail. Same mud. More laps.",
+   "start": 4.0,
+   "end": 6.5,
+   "size": 76,
+   "y": 360,
+   "band": true
+  },
+  {
+   "type": "image",
+   "src": "/home/user/oru-store/assets/products/watts-black-3.jpg",
+   "start": 6.4,
+   "end": 10.1,
+   "zoom": 1.06,
+   "fit": "contain"
+  },
+  {
+   "type": "text",
+   "text": "The shirt says it shorter.",
+   "start": 6.6,
+   "end": 10.0,
+   "size": 84,
+   "y": 420,
+   "band": true
+  },
+  {
+   "type": "endcard",
+   "start": 10.0,
+   "end": 13
+  },
+  {
+   "type": "label",
+   "text": "mockup",
+   "start": 6.4,
+   "end": 10.1
+  }
+ ]
+}

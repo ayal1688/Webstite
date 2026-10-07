@@ -41,7 +41,7 @@
    "text": "No, I'm not going\nto argue about it.",
    "start": 4.0,
    "end": 6.0,
-   "size": 84,
+   "size": 72,
    "y": -400
   },
   {
@@ -62,15 +62,15 @@
    "band": true
   },
   {
-   "type": "label",
-   "text": "mockup",
-   "start": 6.0,
-   "end": 9.5
-  },
-  {
    "type": "endcard",
    "start": 9.5,
    "end": 13
+  },
+  {
+   "type": "label",
+   "text": "mockup",
+   "start": 5.9,
+   "end": 9.6
   }
  ]
 }

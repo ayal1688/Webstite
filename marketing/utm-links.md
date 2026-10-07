@@ -8,17 +8,17 @@ The first time you use one, open it yourself and check it lands on the Watts tee
 
 | Where | Exact link | Shows in the NEW SALE message as | Where you see clicks |
 |---|---|---|---|
-| TikTok bio (plain text, not clickable) | `wearoru.com` | blank (a typed address carries no tag) | TikTok Analytics: profile views |
-| TikTok pinned comment (plain text) | `wearoru.com` | blank | none |
-| TikTok Website field (only once it appears, after verification or 1,000 followers) | https://wearoru.com/product-watts?utm_source=tiktok&utm_medium=social&utm_campaign=launch | `tiktok` | TikTok Analytics: website clicks (check in the app) |
+| TikTok bio (plain text, not clickable) | `wearoru.com` | `unknown` (a typed address carries no tag) | TikTok Analytics: profile views |
+| TikTok pinned comment (plain text) | `wearoru.com` | `unknown` | none |
+| TikTok Website field (only once it appears; reportedly after business verification or 1,000 followers — check in the app) | https://wearoru.com/product-watts?utm_source=tiktok&utm_medium=social&utm_campaign=launch | `tiktok` | TikTok Analytics: website clicks (check in the app) |
 | Facebook Page "Shop now" button | https://wearoru.com/product-watts?utm_source=facebook&utm_medium=social&utm_campaign=launch | `facebook` | Page insights: action button clicks (check in the app) |
 | Facebook Page posts and Reels (caption) | same Facebook link | `facebook` | Page insights: link clicks |
 | Facebook group posts (only where the admins said yes and links are allowed) | same Facebook link | `facebook` | Not split from the Page. Note the date of each group post and watch for a jump. |
 | Reddit: the one approved post only | https://wearoru.com/product-watts?utm_source=reddit&utm_medium=community&utm_campaign=launch | `reddit` | The post's view count and insights (check in the app) |
 | Instagram bio (optional) | https://wearoru.com/product-watts?utm_source=instagram&utm_medium=social&utm_campaign=launch | `instagram` | Instagram insights |
-| YouTube Shorts channel links (optional) | https://wearoru.com/product-watts?utm_source=youtube&utm_medium=social&utm_campaign=launch | `youtube` | YouTube Studio |
-| Strava profile (only if your profile is anonymous) | https://wearoru.com/product-watts?utm_source=strava&utm_medium=profile&utm_campaign=launch | `strava` | none. Strava shows no clicks. |
-| Google search (nothing to paste) | none | blank, or the Google address | Search Console → Performance: clicks |
+| YouTube channel links (optional; check in the app whether links in Shorts descriptions are clickable) | https://wearoru.com/product-watts?utm_source=youtube&utm_medium=social&utm_campaign=launch | `youtube` | YouTube Studio |
+| Strava profile (only if your profile is anonymous) | https://wearoru.com/product-watts?utm_source=strava&utm_medium=profile&utm_campaign=launch | `strava` | none that we know of (check in the app) |
+| Google search (nothing to paste) | none | `unknown`, or the Google address | Search Console → Performance: clicks |
 
 Where links never go:
 - Reddit comments, ever. Nothing on Reddit during the warm-up (Days 1–14), and the profile stays clean too.
@@ -31,19 +31,23 @@ Where links never go:
 ### Sales: the NEW SALE message
 
 Each paid order sends a NEW SALE message to the Discord channel behind `ALERT_WEBHOOK`, so it reaches your phone.
-It shows the color, size, amount and source. This comes with the site update; check it's live by Day 7.
+It shows the amount, the shirt, color and size, the source, and the PayPal order number. This comes with the site update; check it's live by Day 7.
 
-Roughly like this (the exact wording may differ):
+It looks like this (four lines; the order number is made up here):
 
 ```
-NEW SALE: Black / L / $56 / source: reddit
+NEW SALE $56.00
+1 × Watts tee Black L
+source: reddit
+PayPal order 1AB23456CD789012E
 ```
 
 How to read the source:
 - It's the first tagged link that visitor arrived on, remembered for that visit only.
-- If they arrived without a tag, it shows the site they came from, or nothing.
-- If they leave and come back later by typing the address, the source is blank.
-- A blank source while TikTok is your busiest channel probably means TikTok, since the bio is plain text. Probably, not certainly.
+- If they arrived without a tag, it shows the site they came from, or `unknown`.
+- If they leave and come back later by typing the address, the source is `unknown`.
+- If the server restarted between checkout and payment, the source is `unknown` too.
+- An `unknown` source while TikTok is your busiest channel probably means TikTok, since the bio is plain text. Probably, not certainly.
 - If you email a buyer anyway (about tracking, say), you can add one line: "Where did you hear about ORU?" Keep it to that one question.
 
 ### Visits: platform clicks

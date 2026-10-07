@@ -16,7 +16,7 @@
 | 3.0–4.5 | Stop you sweating. | Text card | None |
 | 4.5–6.5 | Breathe as well under the print. | Text card | None |
 | 6.5–8.0 | Win the argument. | Text card | None |
-| 8.0–11.0 | It just says it. + label "AI mockup" | Back view on a model, slow push-in. `/home/user/oru-store/assets/products/watts-navy-1.jpg` | None |
+| 8.0–11.0 | It just says it. + label "AI mockup" | Back view on a model, slow push-in. `oru-store/assets/products/watts-navy-1.jpg` | None |
 | 11.0–14.5 | End card (below) | Ink background | None |
 
 ## End card
@@ -39,7 +39,7 @@ Funny ebike shirt · wearoru.com
 - TikTok: **AI-generated content ON** (photoreal mockup with an AI model). Can't be changed after posting.
 - Audio: none, or a Commercial Music Library track added inside TikTok. Never a trending song or another user's sound.
 - Facebook Page Reel: upload the same music-free file, not a TikTok download. Add the Facebook link line from captions.md. If Facebook offers an AI label on upload, turn it on (check in the app).
-- Pin the standard comment from captions.md.
+- After it's live: next morning (Israel), first thing in your TikTok comments block, post the standard comment from captions.md on it and pin it. You can't comment on a scheduled post before it goes live. If you posted from the phone, pin it right away.
 - If TikTok flags the disclosure, answer within 24 hours.
 
 ## Do not

@@ -54,12 +54,6 @@
    "band": true
   },
   {
-   "type": "label",
-   "text": "mockup",
-   "start": 3.5,
-   "end": 7.0
-  },
-  {
    "type": "image",
    "src": "/home/user/oru-store/design/preview-on-black.jpg",
    "start": 6.9,
@@ -71,6 +65,12 @@
    "type": "endcard",
    "start": 9.5,
    "end": 13
+  },
+  {
+   "type": "label",
+   "text": "mockup",
+   "start": 3.4,
+   "end": 7.1
   }
  ]
 }

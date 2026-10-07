@@ -1,0 +1,73 @@
+{
+ "name": "10-reply-not-mtb-reply",
+ "title": "Reply not MTB (reply cut)",
+ "duration": 14.5,
+ "layers": [
+  {
+   "type": "chart",
+   "line_only": true,
+   "start": 0,
+   "draw_end": 7.8,
+   "end": 8.0,
+   "opacity": 0.2,
+   "y": 560
+  },
+  {
+   "type": "text",
+   "text": "Same trails.",
+   "start": 0,
+   "end": 2.0,
+   "size": 120,
+   "y": 80
+  },
+  {
+   "type": "text",
+   "text": "Same mud.",
+   "start": 2.0,
+   "end": 4.0,
+   "size": 120
+  },
+  {
+   "type": "text",
+   "text": "Same crashes.",
+   "start": 4.0,
+   "end": 6.0,
+   "size": 120
+  },
+  {
+   "type": "text",
+   "text": "More laps.",
+   "start": 6.0,
+   "end": 8.0,
+   "size": 120
+  },
+  {
+   "type": "image",
+   "src": "/home/user/oru-store/assets/products/watts-navy-3.jpg",
+   "start": 7.9,
+   "end": 11.6,
+   "zoom": 1.06,
+   "fit": "contain"
+  },
+  {
+   "type": "text",
+   "text": "Or I could just wear this.",
+   "start": 8.1,
+   "end": 11.5,
+   "size": 84,
+   "y": 420,
+   "band": true
+  },
+  {
+   "type": "endcard",
+   "start": 11.5,
+   "end": 14.5
+  },
+  {
+   "type": "label",
+   "text": "mockup",
+   "start": 7.9,
+   "end": 11.6
+  }
+ ]
+}

@@ -11,18 +11,18 @@
 
 | Time | On-screen text | Visual + asset | Audio |
 |---|---|---|---|
-| 0.0–1.5 | Line goes up. | Axes appear, line starts drawing from bottom left. `/home/user/oru-store/design/watts-chart.svg` (animate the path stroke; hide both text elements for now) | None |
+| 0.0–1.5 | Line goes up. | Axes appear, line starts drawing from bottom left. `oru-store/design/watts-chart.svg` (animate the path stroke; hide both text elements for now) | None |
 | 1.5–3.5 | Higher highs. Higher lows. | Line keeps climbing in steps | None |
 | 3.5–5.0 | (none) | Last climb becomes the W. "ATTS" fades in next to it, so it reads WATTS. Same SVG. | None |
 | 5.0–6.5 | (none) | "ARE OVERRATED" fades in. Hold the full artwork. Same SVG. | None |
-| 6.5–8.5 | mockup (small label, top left) | Back-print close-up, slow push-in. `/home/user/oru-store/assets/products/watts-black-3.jpg` | None |
+| 6.5–8.5 | mockup (small label, top left) | Back-print close-up, slow push-in. `oru-store/assets/products/watts-black-3.jpg` | None |
 | 8.5–11.0 | End card (below) | Ink background | None |
 
 ## End card
 
 **Watts tee · from $56 · wearoru.com**
 
-Optional: the small ORU mark (circle with a rust `#d1442b` bar) above the text, as drawn in `/home/user/Webstite/brag-output/composition/index.html`.
+Optional: the small ORU mark (circle with a rust `#d1442b` bar) above the text, as drawn in `brag-output/composition/index.html`.
 
 ## Caption
 
@@ -40,7 +40,7 @@ From $56 · wearoru.com
 - TikTok: **AI-generated content ON** (the print close-up is a photoreal mockup). This can't be changed after posting.
 - Audio: the file has no music. In TikTok use no sound, or a Commercial Music Library track. Never a trending song or another user's sound.
 - Facebook Page Reel: upload the same music-free file, not a TikTok download. Add the Facebook link line from captions.md. If you want music there, use Facebook's own sound library (check in the app). If Facebook offers an AI label on upload, turn it on (check in the app).
-- Pin the standard comment from captions.md.
+- After it's live: next morning (Israel), first thing in your TikTok comments block, post the standard comment from captions.md on it and pin it. You can't comment on a scheduled post before it goes live. If you posted from the phone, pin it right away.
 - If TikTok flags the disclosure, answer within 24 hours.
 
 ## Do not

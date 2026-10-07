@@ -1,0 +1,74 @@
+{
+ "name": "10-reply-motorbike-reply",
+ "title": "Reply motorbike (reply cut)",
+ "duration": 14.5,
+ "layers": [
+  {
+   "type": "chart",
+   "line_only": true,
+   "start": 0,
+   "draw_end": 7.8,
+   "end": 8.0,
+   "opacity": 0.2,
+   "y": 560
+  },
+  {
+   "type": "text",
+   "text": "Fair question.",
+   "start": 0,
+   "end": 2.0,
+   "size": 110,
+   "y": 80
+  },
+  {
+   "type": "text",
+   "text": "No pedaling, no motor.",
+   "start": 2.0,
+   "end": 4.0,
+   "size": 100
+  },
+  {
+   "type": "text",
+   "text": "Stop pedaling.",
+   "start": 4.0,
+   "end": 6.0,
+   "size": 100,
+   "sub": "The motor stops."
+  },
+  {
+   "type": "text",
+   "text": "A motorbike doesn't need your legs.",
+   "start": 6.0,
+   "end": 8.0,
+   "size": 92
+  },
+  {
+   "type": "image",
+   "src": "/home/user/oru-store/assets/products/watts-navy-3.jpg",
+   "start": 7.9,
+   "end": 11.6,
+   "zoom": 1.06,
+   "fit": "contain"
+  },
+  {
+   "type": "text",
+   "text": "Or I could just wear this.",
+   "start": 8.1,
+   "end": 11.5,
+   "size": 84,
+   "y": 420,
+   "band": true
+  },
+  {
+   "type": "endcard",
+   "start": 11.5,
+   "end": 14.5
+  },
+  {
+   "type": "label",
+   "text": "mockup",
+   "start": 7.9,
+   "end": 11.6
+  }
+ ]
+}

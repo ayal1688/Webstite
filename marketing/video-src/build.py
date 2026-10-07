@@ -13,13 +13,25 @@ Layer types (all times in seconds):
   text     {text, start, end, y?, size?, color?, band?, sub?}      big centred card text
   label    {text, start, end}                                      small tag, top left ("mockup")
   image    {src, start, end, zoom?, fit?}                          still with slow push-in; fit contain|cover
+  video    {src, start, end, media_start?, sound?, position?}      owner's own vertical clip, cover-fit; muted
+                                                                    unless sound: true (the owner's own trail sound)
   list     {title, items, start, step, end}                        lines arriving one by one
   endcard  {start, end}                                            ORU mark, WATTS TEE · FROM $56, wearoru.com
+
+Checks (build refuses the spec otherwise): a "mockup" / "AI mockup" label must
+start no later and end no earlier than every photoreal mockup it covers, so a
+mockup is never on screen without it; and no text sits lower than y 420,
+which keeps it clear of TikTok's caption over the bottom fifth.
+
+Owner clips: scripts 02, 06, 07, 09 and 10 can use a faceless POV clip from
+the owner in place of the chart-line fallback. Swap the line_only chart layer
+for a video layer with the same start/end, then build and render.
 """
 import html
 import json
 from PIL import Image
 import shutil
+import subprocess
 import sys
 from pathlib import Path
 
@@ -57,7 +69,9 @@ body { margin: 0; background: var(--ink); }
 .card p { margin: 0; width: 820px; margin-right: 100px; text-align: center; font-weight: 700;
   line-height: 1.04; letter-spacing: -0.01em; text-transform: uppercase; }
 .chart-wrap { display: flex; align-items: center; justify-content: center; }
-#chart { width: 960px; height: 608px; margin-right: 40px; overflow: visible; }
+/* 870 wide + 98 right margin puts the artwork (axis end included) at x 84-897. */
+#chart { width: 870px; height: 551px; margin-right: 98px; overflow: visible; }
+.vid { width: 100%; height: 100%; object-fit: cover; }
 .img { background-size: cover; background-position: center; }
 .tag { position: absolute; left: 80px; top: 220px; padding: 10px 18px; background: rgba(15,16,17,.82);
   font-size: 40px; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--bone); }
@@ -75,8 +89,23 @@ body { margin: 0; background: var(--ink); }
 FADE = 0.3
 
 
+def check_labels(spec):
+    """Every photoreal mockup (anything from assets/products) must sit under a
+    label for its whole time on screen, fades included."""
+    labels = [(l['start'], l['end']) for l in spec['layers'] if l['type'] == 'label']
+    for l in spec['layers']:
+        srcs = l.get('srcs') or [l.get('src', '')]
+        if l['type'] in ('image', 'split') and any('/assets/products/' in s for s in srcs):
+            if not any(a <= l['start'] and b >= l['end'] for a, b in labels):
+                raise ValueError(f"{spec['name']}: mockup {srcs} {l['start']}-{l['end']} is not fully labelled")
+    for l in spec['layers']:
+        if l['type'] == 'text' and l.get('y', 0) > 420:
+            raise ValueError(f"{spec['name']}: text {l['text']!r} sits too low (y {l['y']} > 420)")
+
+
 def build(spec_path):
     spec = json.loads(Path(spec_path).read_text(encoding='utf-8'))
+    check_labels(spec)
     name = spec['name']
     out = HERE / name
     if out.exists():
@@ -89,7 +118,7 @@ def build(spec_path):
     shutil.copy(BRAG / 'vendor' / 'gsap.min.js', out / 'assets' / 'vendor')
 
     duration = spec['duration']
-    body, js = [], []
+    body, js, clips = [], [], []
     for i, layer in enumerate(spec['layers']):
         lid = f'L{i}'
         kind = layer['type']
@@ -171,6 +200,28 @@ def build(spec_path):
   tl.fromTo("#{lid}", {{ opacity: 0, scale: 1 }}, {{ opacity: 1, duration: {FADE}, ease: "power1.out" }}, {start});
   tl.to("#{lid}", {{ scale: {zoom}, duration: {end - start}, ease: "none" }}, {start});
   tl.to("#{lid}", {{ opacity: 0, duration: {FADE} }}, {end - FADE});''')
+        elif kind == 'video':
+            # The owner's own clip. Muted unless the owner wants their own
+            # trail sound on it; never anyone else's audio.
+            # Re-encoded with a keyframe every 30 frames so the renderer can seek
+            # it cleanly. It sits outside the timed <section> (hyperframes
+            # resolves a nested video's start without the wrapper's offset),
+            # below every other layer.
+            src = Path(layer['src'])
+            (out / 'assets' / 'clip').mkdir(exist_ok=True)
+            dst = out / 'assets' / 'clip' / (src.stem + '.mp4')
+            subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', str(src), '-c:v', 'libx264', '-r', '30',
+                            '-g', '30', '-keyint_min', '30', '-pix_fmt', 'yuv420p', '-movflags', '+faststart',
+                            '-c:a', 'aac', str(dst)], check=True)
+            pos = layer.get('position', 'center')
+            sound = 'data-has-audio="true"' if layer.get('sound') else 'muted'
+            clips.append(f'<video id="{lid}" class="layer clip vid" src="assets/clip/{dst.name}" '
+                        f'data-start="{start}" data-duration="{round(end - start, 3)}" '
+                        f'data-media-start="{layer.get("media_start", 0)}" {sound} playsinline '
+                        f'style="object-position:{pos}"></video>')
+            js.append(f'''
+  tl.fromTo("#{lid}", {{ opacity: 0 }}, {{ opacity: 1, duration: 0.2 }}, {start});
+  tl.to("#{lid}", {{ opacity: 0, duration: {FADE} }}, {end - FADE});''')
         elif kind == 'list':
             items = ''.join(f'<p id="{lid}i{j}">{html.escape(t)}</p>' for j, t in enumerate(layer['items']))
             body.append(f'<div id="{lid}" class="layer list"><h2>{html.escape(layer["title"])}</h2>{items}</div>')
@@ -204,6 +255,7 @@ def build(spec_path):
 </head>
 <body>
 <div id="root" data-composition-id="oru" data-start="0" data-width="{W}" data-height="{H}" data-duration="{duration}">
+{chr(10).join(clips)}
 <section id="scene" class="clip" data-start="0" data-duration="{duration}" data-track-index="0" style="position:absolute;inset:0">
 {chr(10).join(body)}
 </section>

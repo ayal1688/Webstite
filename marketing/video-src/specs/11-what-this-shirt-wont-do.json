@@ -53,15 +53,15 @@
    "band": true
   },
   {
-   "type": "label",
-   "text": "AI mockup",
-   "start": 8.0,
-   "end": 11.0
-  },
-  {
    "type": "endcard",
    "start": 11.0,
    "end": 14.5
+  },
+  {
+   "type": "label",
+   "text": "AI mockup",
+   "start": 7.9,
+   "end": 11.1
   }
  ]
 }

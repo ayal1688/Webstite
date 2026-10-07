@@ -54,12 +54,6 @@
    "band": true
   },
   {
-   "type": "label",
-   "text": "mockup",
-   "start": 3.5,
-   "end": 7.0
-  },
-  {
    "type": "image",
    "src": "/home/user/oru-store/assets/products/watts-black-1.jpg",
    "start": 6.9,
@@ -73,19 +67,19 @@
    "start": 7.1,
    "end": 9.0,
    "size": 76,
-   "y": 520,
+   "y": 420,
    "band": true
-  },
-  {
-   "type": "label",
-   "text": "AI mockup",
-   "start": 7.0,
-   "end": 9.0
   },
   {
    "type": "endcard",
    "start": 9.0,
    "end": 12.5
+  },
+  {
+   "type": "label",
+   "text": "AI mockup",
+   "start": 3.4,
+   "end": 9.1
   }
  ]
 }
