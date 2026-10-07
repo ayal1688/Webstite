@@ -1,0 +1,76 @@
+{
+ "name": "06-overheard-electric",
+ "title": "Overheard electric",
+ "duration": 13,
+ "layers": [
+  {
+   "type": "chart",
+   "line_only": true,
+   "start": 0,
+   "draw_end": 5.8,
+   "end": 6.0,
+   "opacity": 1
+  },
+  {
+   "type": "text",
+   "text": "Overheard at the trailhead",
+   "start": 0,
+   "end": 2.0,
+   "size": 48,
+   "color": "var(--signal-text)",
+   "y": -560
+  },
+  {
+   "type": "text",
+   "text": "\"Is that thing electric?\"",
+   "start": 0.1,
+   "end": 2.0,
+   "size": 100,
+   "y": -400
+  },
+  {
+   "type": "text",
+   "text": "Yes, it has a motor.",
+   "start": 2.0,
+   "end": 4.0,
+   "size": 100,
+   "y": -400
+  },
+  {
+   "type": "text",
+   "text": "No, I'm not going\nto argue about it.",
+   "start": 4.0,
+   "end": 6.0,
+   "size": 84,
+   "y": -400
+  },
+  {
+   "type": "image",
+   "src": "/home/user/oru-store/assets/products/watts-navy-3.jpg",
+   "start": 5.9,
+   "end": 9.6,
+   "zoom": 1.06,
+   "fit": "contain"
+  },
+  {
+   "type": "text",
+   "text": "I made a shirt instead.",
+   "start": 6.1,
+   "end": 9.5,
+   "size": 84,
+   "y": 420,
+   "band": true
+  },
+  {
+   "type": "label",
+   "text": "mockup",
+   "start": 6.0,
+   "end": 9.5
+  },
+  {
+   "type": "endcard",
+   "start": 9.5,
+   "end": 13
+  }
+ ]
+}

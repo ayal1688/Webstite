@@ -1,0 +1,99 @@
+{
+ "name": "08-what-happens-when-you-order",
+ "title": "What happens when you order",
+ "duration": 18,
+ "layers": [
+  {
+   "type": "text",
+   "text": "What happens if you order one?",
+   "start": 0,
+   "end": 2.0,
+   "size": 96
+  },
+  {
+   "type": "image",
+   "src": "/home/user/oru-store/design/preview-on-black.jpg",
+   "start": 1.9,
+   "end": 4.6,
+   "zoom": 1.06,
+   "fit": "contain"
+  },
+  {
+   "type": "text",
+   "text": "1. It's printed in the US after you order.",
+   "start": 2.0,
+   "end": 4.5,
+   "size": 68,
+   "y": 560,
+   "band": true
+  },
+  {
+   "type": "image",
+   "src": "/home/user/oru-store/assets/products/watts-black-3.jpg",
+   "start": 4.4,
+   "end": 7.1,
+   "zoom": 1.06,
+   "fit": "contain"
+  },
+  {
+   "type": "text",
+   "text": "2. 0\u201310 days on the press.",
+   "start": 4.6,
+   "end": 7.0,
+   "size": 76,
+   "y": 560,
+   "band": true
+  },
+  {
+   "type": "label",
+   "text": "mockup",
+   "start": 4.5,
+   "end": 7.0
+  },
+  {
+   "type": "image",
+   "src": "/home/user/oru-store/assets/products/watts-navy-3.jpg",
+   "start": 6.9,
+   "end": 9.6,
+   "zoom": 1.06,
+   "fit": "contain"
+  },
+  {
+   "type": "text",
+   "text": "3. 2\u20135 days to you in the US.",
+   "start": 7.1,
+   "end": 9.5,
+   "size": 72,
+   "y": 520,
+   "band": true,
+   "sub": "Free shipping."
+  },
+  {
+   "type": "label",
+   "text": "mockup",
+   "start": 7.0,
+   "end": 9.5
+  },
+  {
+   "type": "text",
+   "text": "Wrong size? Right one free.",
+   "start": 9.5,
+   "end": 12.0,
+   "size": 92,
+   "sub": "Keep the first."
+  },
+  {
+   "type": "text",
+   "text": "The first order also pays for my sample.",
+   "start": 12.0,
+   "end": 14.5,
+   "size": 84,
+   "sub": "Real photos follow."
+  },
+  {
+   "type": "endcard",
+   "start": 14.5,
+   "end": 18
+  }
+ ]
+}

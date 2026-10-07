@@ -1,0 +1,91 @@
+{
+ "name": "09-overheard-must-be-nice",
+ "title": "Overheard must be nice",
+ "duration": 12.5,
+ "layers": [
+  {
+   "type": "chart",
+   "line_only": true,
+   "start": 0,
+   "draw_end": 3.3,
+   "end": 3.5,
+   "opacity": 1
+  },
+  {
+   "type": "text",
+   "text": "Overheard on a climb",
+   "start": 0,
+   "end": 2.0,
+   "size": 48,
+   "color": "var(--signal-text)",
+   "y": -560
+  },
+  {
+   "type": "text",
+   "text": "\"Must be nice.\"",
+   "start": 0.1,
+   "end": 2.0,
+   "size": 110,
+   "y": -400
+  },
+  {
+   "type": "text",
+   "text": "It is.",
+   "start": 2.0,
+   "end": 3.5,
+   "size": 130,
+   "y": -400
+  },
+  {
+   "type": "image",
+   "src": "/home/user/oru-store/assets/products/watts-black-3.jpg",
+   "start": 3.4,
+   "end": 7.1,
+   "zoom": 1.06,
+   "fit": "contain"
+  },
+  {
+   "type": "text",
+   "text": "So I made a shirt about it.",
+   "start": 3.6,
+   "end": 7.0,
+   "size": 84,
+   "y": 420,
+   "band": true
+  },
+  {
+   "type": "label",
+   "text": "mockup",
+   "start": 3.5,
+   "end": 7.0
+  },
+  {
+   "type": "image",
+   "src": "/home/user/oru-store/assets/products/watts-black-1.jpg",
+   "start": 6.9,
+   "end": 9.1,
+   "zoom": 1.05,
+   "fit": "cover"
+  },
+  {
+   "type": "text",
+   "text": "Higher highs. Higher lows.",
+   "start": 7.1,
+   "end": 9.0,
+   "size": 76,
+   "y": 520,
+   "band": true
+  },
+  {
+   "type": "label",
+   "text": "AI mockup",
+   "start": 7.0,
+   "end": 9.0
+  },
+  {
+   "type": "endcard",
+   "start": 9.0,
+   "end": 12.5
+  }
+ ]
+}

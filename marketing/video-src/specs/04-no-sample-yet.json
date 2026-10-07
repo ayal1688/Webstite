@@ -1,0 +1,71 @@
+{
+ "name": "04-no-sample-yet",
+ "title": "No sample yet",
+ "duration": 15,
+ "layers": [
+  {
+   "type": "text",
+   "text": "I've never held one.",
+   "start": 0,
+   "end": 2.0
+  },
+  {
+   "type": "text",
+   "text": "The first order pays for the sample.",
+   "start": 2.0,
+   "end": 4.5,
+   "size": 92
+  },
+  {
+   "type": "image",
+   "src": "/home/user/oru-store/assets/products/watts-navy-1.jpg",
+   "start": 4.4,
+   "end": 8.1,
+   "zoom": 1.08,
+   "fit": "cover"
+  },
+  {
+   "type": "text",
+   "text": "Here's the mockup until then.",
+   "start": 4.6,
+   "end": 8.0,
+   "size": 76,
+   "y": 420,
+   "band": true
+  },
+  {
+   "type": "label",
+   "text": "AI mockup",
+   "start": 4.5,
+   "end": 8.0
+  },
+  {
+   "type": "image",
+   "src": "/home/user/oru-store/assets/products/watts-navy-3.jpg",
+   "start": 7.9,
+   "end": 11.1,
+   "zoom": 1.06,
+   "fit": "contain"
+  },
+  {
+   "type": "text",
+   "text": "Real photos when it arrives.",
+   "start": 8.1,
+   "end": 11.0,
+   "size": 76,
+   "y": 420,
+   "band": true
+  },
+  {
+   "type": "label",
+   "text": "mockup",
+   "start": 8.0,
+   "end": 11.0
+  },
+  {
+   "type": "endcard",
+   "start": 11.0,
+   "end": 15
+  }
+ ]
+}

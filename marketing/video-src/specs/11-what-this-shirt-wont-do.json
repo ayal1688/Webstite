@@ -1,0 +1,67 @@
+{
+ "name": "11-what-this-shirt-wont-do",
+ "title": "What this shirt wont do",
+ "duration": 14.5,
+ "layers": [
+  {
+   "type": "text",
+   "text": "Things this shirt won't do:",
+   "start": 0,
+   "end": 1.5,
+   "size": 92
+  },
+  {
+   "type": "text",
+   "text": "Make you faster.",
+   "start": 1.5,
+   "end": 3.0
+  },
+  {
+   "type": "text",
+   "text": "Stop you sweating.",
+   "start": 3.0,
+   "end": 4.5
+  },
+  {
+   "type": "text",
+   "text": "Breathe as well under the print.",
+   "start": 4.5,
+   "end": 6.5,
+   "size": 96
+  },
+  {
+   "type": "text",
+   "text": "Win the argument.",
+   "start": 6.5,
+   "end": 8.0
+  },
+  {
+   "type": "image",
+   "src": "/home/user/oru-store/assets/products/watts-navy-1.jpg",
+   "start": 7.9,
+   "end": 11.1,
+   "zoom": 1.08,
+   "fit": "cover"
+  },
+  {
+   "type": "text",
+   "text": "It just says it.",
+   "start": 8.1,
+   "end": 11.0,
+   "size": 84,
+   "y": 420,
+   "band": true
+  },
+  {
+   "type": "label",
+   "text": "AI mockup",
+   "start": 8.0,
+   "end": 11.0
+  },
+  {
+   "type": "endcard",
+   "start": 11.0,
+   "end": 14.5
+  }
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "name": "12-black-or-navy",
+ "title": "Black or navy",
+ "duration": 11,
+ "layers": [
+  {
+   "type": "bg",
+   "color": "#1b2333",
+   "start": 3.5,
+   "end": 5.0,
+   "fade": 0.5
+  },
+  {
+   "type": "chart",
+   "start": 0,
+   "draw_end": 2.4,
+   "w_end": 3.1,
+   "atts_at": 3.1,
+   "overrated_at": 3.3,
+   "end": 5.0
+  },
+  {
+   "type": "text",
+   "text": "Black or navy?",
+   "start": 0.1,
+   "end": 1.5,
+   "size": 100,
+   "y": -520
+  },
+  {
+   "type": "text",
+   "text": "Black.",
+   "start": 1.5,
+   "end": 3.5,
+   "size": 110,
+   "y": -520
+  },
+  {
+   "type": "text",
+   "text": "Athletic Navy.",
+   "start": 3.5,
+   "end": 5.0,
+   "size": 110,
+   "y": -520
+  },
+  {
+   "type": "split",
+   "srcs": [
+    "/home/user/oru-store/assets/products/watts-black-3.jpg",
+    "/home/user/oru-store/assets/products/watts-navy-3.jpg"
+   ],
+   "start": 4.9,
+   "end": 7.1
+  },
+  {
+   "type": "text",
+   "text": "S to 3XL.",
+   "start": 5.1,
+   "end": 7.0,
+   "size": 96,
+   "band": true
+  },
+  {
+   "type": "label",
+   "text": "mockup",
+   "start": 5.0,
+   "end": 7.0
+  },
+  {
+   "type": "text",
+   "text": "Never on sale.",
+   "start": 7.0,
+   "end": 8.5,
+   "size": 110
+  },
+  {
+   "type": "endcard",
+   "start": 8.5,
+   "end": 11
+  }
+ ]
+}

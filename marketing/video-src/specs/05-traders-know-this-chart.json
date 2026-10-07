@@ -1,0 +1,62 @@
+{
+ "name": "05-traders-know-this-chart",
+ "title": "Traders know this chart",
+ "duration": 12,
+ "layers": [
+  {
+   "type": "chart",
+   "start": 0,
+   "draw_end": 4.2,
+   "w_end": 5.1,
+   "atts_at": 5.1,
+   "overrated_at": 6.0,
+   "end": 8.5
+  },
+  {
+   "type": "text",
+   "text": "Traders know this chart.",
+   "start": 0.1,
+   "end": 2.0,
+   "size": 92,
+   "y": -520
+  },
+  {
+   "type": "text",
+   "text": "Higher highs.\nHigher lows.",
+   "start": 2.0,
+   "end": 4.0,
+   "size": 96,
+   "y": -500
+  },
+  {
+   "type": "text",
+   "text": "So do e-MTB riders.",
+   "start": 4.0,
+   "end": 6.0,
+   "size": 92,
+   "y": -520
+  },
+  {
+   "type": "image",
+   "src": "/home/user/oru-store/design/preview-on-black.jpg",
+   "start": 8.4,
+   "end": 9.6,
+   "zoom": 1.06,
+   "fit": "contain"
+  },
+  {
+   "type": "text",
+   "text": "Back print. Black or navy.",
+   "start": 8.5,
+   "end": 9.5,
+   "size": 72,
+   "y": 520,
+   "band": true
+  },
+  {
+   "type": "endcard",
+   "start": 9.5,
+   "end": 12
+  }
+ ]
+}

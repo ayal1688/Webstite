@@ -1,0 +1,13 @@
+{
+  "name": "01-line-goes-up",
+  "title": "Line goes up",
+  "duration": 11,
+  "layers": [
+    {"type": "chart", "start": 0, "draw_end": 3.5, "w_end": 4.4, "atts_at": 4.4, "overrated_at": 5.2, "end": 6.5},
+    {"type": "text", "text": "Line goes up.", "start": 0.1, "end": 1.5, "y": -520, "size": 96},
+    {"type": "text", "text": "Higher highs.\nHigher lows.", "start": 1.5, "end": 3.5, "y": -500, "size": 96},
+    {"type": "image", "src": "/home/user/oru-store/assets/products/watts-black-3.jpg", "start": 6.4, "end": 8.6, "zoom": 1.06, "fit": "contain"},
+    {"type": "label", "text": "mockup", "start": 6.5, "end": 8.5},
+    {"type": "endcard", "start": 8.5, "end": 11}
+  ]
+}

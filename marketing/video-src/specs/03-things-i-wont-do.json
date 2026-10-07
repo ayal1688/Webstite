@@ -1,0 +1,67 @@
+{
+ "name": "03-things-i-wont-do",
+ "title": "Things i wont do",
+ "duration": 13.5,
+ "layers": [
+  {
+   "type": "text",
+   "text": "Things I won't do to sell a shirt:",
+   "start": 0,
+   "end": 1.5,
+   "size": 88
+  },
+  {
+   "type": "text",
+   "text": "Fake reviews.",
+   "start": 1.5,
+   "end": 3.0
+  },
+  {
+   "type": "text",
+   "text": "Fake countdowns.",
+   "start": 3.0,
+   "end": 4.5
+  },
+  {
+   "type": "text",
+   "text": "Oversell the fabric.",
+   "start": 4.5,
+   "end": 6.0
+  },
+  {
+   "type": "text",
+   "text": "It wicks.",
+   "start": 6.0,
+   "end": 8.0,
+   "sub": "You'll still sweat."
+  },
+  {
+   "type": "image",
+   "src": "/home/user/oru-store/assets/products/watts-navy-3.jpg",
+   "start": 7.9,
+   "end": 10.6,
+   "zoom": 1.06,
+   "fit": "contain"
+  },
+  {
+   "type": "text",
+   "text": "Just the shirt.",
+   "start": 8.1,
+   "end": 10.5,
+   "size": 84,
+   "y": 420,
+   "band": true
+  },
+  {
+   "type": "label",
+   "text": "mockup",
+   "start": 8.0,
+   "end": 10.5
+  },
+  {
+   "type": "endcard",
+   "start": 10.5,
+   "end": 13.5
+  }
+ ]
+}

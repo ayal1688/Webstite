@@ -1,5 +1,9 @@
 # Hyperframes Composition Brief: ORU — Watts tee
 
+> **Historical, October 2026.** Written for an earlier build: the price is now from $56
+> ($60 2XL, $62 3XL) and the shirt is a light 100% polyester tee. Current facts live in
+> `marketing/README.md`. Do not copy prices or fabric details from this file.
+
 ## Objective
 
 Create a short launch-style brag video for ORU, a one-person e-enduro apparel
