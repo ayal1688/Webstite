@@ -1,0 +1,48 @@
+{
+ "name": "16-fast-facts",
+ "title": "Fast facts",
+ "duration": 13,
+ "layers": [
+  {
+   "type": "list",
+   "title": "Watts tee",
+   "items": [
+    "Black or navy",
+    "S to 3XL",
+    "Free shipping",
+    "Never on sale"
+   ],
+   "start": 0,
+   "step": 1.0,
+   "end": 5.4
+  },
+  {
+   "type": "image",
+   "src": "C:/Users/ayal1/ORU-store/assets/products/watts-navy-3.jpg",
+   "start": 5.3,
+   "end": 8.6,
+   "zoom": 1.06,
+   "fit": "contain"
+  },
+  {
+   "type": "label",
+   "text": "mockup",
+   "start": 5.3,
+   "end": 8.6
+  },
+  {
+   "type": "text",
+   "text": "From $56.",
+   "start": 5.5,
+   "end": 8.4,
+   "size": 96,
+   "y": 420,
+   "band": true
+  },
+  {
+   "type": "endcard",
+   "start": 8.5,
+   "end": 13
+  }
+ ]
+}

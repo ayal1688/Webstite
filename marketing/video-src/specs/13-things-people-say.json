@@ -1,0 +1,46 @@
+{
+ "name": "13-things-people-say",
+ "title": "Things people say",
+ "duration": 13,
+ "layers": [
+  {
+   "type": "list",
+   "title": "Said to e-MTB riders",
+   "items": [
+    "\"It's cheating.\"",
+    "\"That's a motorbike.\"",
+    "\"Must be nice.\"",
+    "\"Real riders pedal.\""
+   ],
+   "start": 0,
+   "step": 1.1,
+   "end": 5.6
+  },
+  {
+   "type": "text",
+   "text": "One shirt answers all of them.",
+   "start": 5.6,
+   "end": 7.4,
+   "size": 92
+  },
+  {
+   "type": "image",
+   "src": "C:/Users/ayal1/ORU-store/assets/products/watts-black-3.jpg",
+   "start": 7.3,
+   "end": 10.1,
+   "zoom": 1.06,
+   "fit": "contain"
+  },
+  {
+   "type": "label",
+   "text": "mockup",
+   "start": 7.3,
+   "end": 10.1
+  },
+  {
+   "type": "endcard",
+   "start": 10.0,
+   "end": 13
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "name": "15-every-climb-now",
+ "title": "Every climb now",
+ "duration": 12,
+ "layers": [
+  {
+   "type": "chart",
+   "start": 0,
+   "draw_end": 3.2,
+   "w_end": 4.0,
+   "atts_at": 4.0,
+   "overrated_at": 4.7,
+   "end": 7.6
+  },
+  {
+   "type": "text",
+   "text": "Every climb on an e-MTB:",
+   "start": 0.1,
+   "end": 3.2,
+   "size": 84,
+   "y": -520
+  },
+  {
+   "type": "text",
+   "text": "Higher highs. Higher lows.",
+   "start": 3.2,
+   "end": 5.2,
+   "size": 84,
+   "y": -520
+  },
+  {
+   "type": "text",
+   "text": "Then it gets an opinion.",
+   "start": 5.2,
+   "end": 7.5,
+   "size": 84,
+   "y": -520
+  },
+  {
+   "type": "endcard",
+   "start": 7.5,
+   "end": 12
+  }
+ ]
+}

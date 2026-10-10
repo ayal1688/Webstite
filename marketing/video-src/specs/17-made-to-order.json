@@ -1,0 +1,62 @@
+{
+ "name": "17-made-to-order",
+ "title": "Made to order",
+ "duration": 14,
+ "layers": [
+  {
+   "type": "text",
+   "text": "Why it's never on sale:",
+   "start": 0,
+   "end": 1.8,
+   "size": 92
+  },
+  {
+   "type": "text",
+   "text": "No warehouse.",
+   "start": 1.8,
+   "end": 3.3
+  },
+  {
+   "type": "text",
+   "text": "No leftover stock.",
+   "start": 3.3,
+   "end": 4.8,
+   "size": 100
+  },
+  {
+   "type": "text",
+   "text": "Printed after you order.",
+   "start": 4.8,
+   "end": 6.8,
+   "size": 96
+  },
+  {
+   "type": "image",
+   "src": "C:/Users/ayal1/ORU-store/assets/products/watts-black-3.jpg",
+   "start": 6.7,
+   "end": 9.9,
+   "zoom": 1.06,
+   "fit": "contain"
+  },
+  {
+   "type": "label",
+   "text": "mockup",
+   "start": 6.7,
+   "end": 9.9
+  },
+  {
+   "type": "text",
+   "text": "So nothing to clear out.",
+   "start": 6.9,
+   "end": 9.8,
+   "size": 76,
+   "y": 420,
+   "band": true
+  },
+  {
+   "type": "endcard",
+   "start": 9.8,
+   "end": 14
+  }
+ ]
+}

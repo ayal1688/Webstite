@@ -1,0 +1,43 @@
+{
+ "name": "14-three-laps",
+ "title": "Three laps",
+ "duration": 12,
+ "layers": [
+  {
+   "type": "text",
+   "text": "Three laps",
+   "start": 0.0,
+   "end": 1.4,
+   "size": 130
+  },
+  {
+   "type": "text",
+   "text": "while you",
+   "start": 1.2,
+   "end": 2.6,
+   "size": 130
+  },
+  {
+   "type": "text",
+   "text": "did one.",
+   "start": 2.4,
+   "end": 4.0,
+   "size": 130,
+   "color": "var(--signal-text)"
+  },
+  {
+   "type": "chart",
+   "start": 3.9,
+   "draw_end": 6.5,
+   "w_end": 7.3,
+   "atts_at": 7.3,
+   "overrated_at": 8.0,
+   "end": 8.6
+  },
+  {
+   "type": "endcard",
+   "start": 8.5,
+   "end": 12
+  }
+ ]
+}
