@@ -4,7 +4,7 @@ export default {
   short: 'Why do people hate e-bikes?',
   description: 'Why some riders hate e-bikes: cheating, trail access, speed, battery fires, city riding. Which complaints are fair, and what e-bike riders can do.',
   keyword: 'ebike haters',
-  date: '2026-10-16',
+  date: '2026-10-11',
   lede: 'Short answer: some of it is about effort and identity, which is opinion. Some of it is about trail access, speed and safety, which is fair and fixable by how e-bike riders behave.',
   body: `
 <h2>The short answer</h2>

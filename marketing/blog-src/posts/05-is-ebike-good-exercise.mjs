@@ -4,7 +4,7 @@ export default {
   short: 'Is riding an e-bike good exercise?',
   description: 'Is an e-bike good exercise? Studies on e-MTBs and e-bike commuters say yes: moderate to vigorous effort, and people ride further. What that means for you.',
   keyword: 'is riding an ebike good exercise',
-  date: '2026-10-13',
+  date: '2026-10-11',
   lede: 'Short answer: yes. Studies find e-bike riding is mostly moderate to vigorous exercise, a bit easier per minute than a regular bike, and people on e-bikes tend to ride longer and more often.',
   body: `
 <h2>The short answer</h2>

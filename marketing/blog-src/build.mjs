@@ -31,9 +31,11 @@ for (const f of fs.readdirSync(path.join(here, 'posts')).filter((f) => f.endsWit
   if (p.description.length > 160) console.warn(`${f}: description is ${p.description.length} chars (Google shows ~155)`);
   p.words = strip(p.lede + ' ' + p.body + ' ' + (p.faq || []).flat().join(' ')).split(' ').length;
   p.url = `${SITE}/blog/${p.slug}.html`;
+  p.file = f;
   posts.push(p);
 }
-posts.sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
+// Newest first; posts published the same day keep the later-numbered file on top.
+posts.sort((a, b) => (a.date !== b.date ? (a.date < b.date ? 1 : -1) : (a.file < b.file ? 1 : -1)));
 
 function page({ title, description, canonical, type = 'website', crumbs, jsonld = [], main }) {
   const crumbHtml = crumbs.map((c, i) => i === crumbs.length - 1

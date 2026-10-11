@@ -4,7 +4,7 @@ export default {
   short: 'e-MTB vs regular mountain bike',
   description: 'e-MTB or regular mountain bike? How they differ on cost, weight, fitness, trail access and maintenance, and a simple way to decide which fits you.',
   keyword: 'emtb vs mtb',
-  date: '2026-10-14',
+  date: '2026-10-11',
   lede: 'Short answer: buy an e-MTB if you want more riding from the time you have, ride with fitter friends or have limited access to lifts. Buy a regular bike if you want lighter handling, lower cost and every trail open to you.',
   body: `
 <h2>The short answer</h2>

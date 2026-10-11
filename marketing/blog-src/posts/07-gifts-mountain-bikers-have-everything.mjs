@@ -4,7 +4,7 @@ export default {
   short: 'Gifts for mountain bikers who have everything',
   description: 'Gifts for the mountain biker who owns all the gear: things that wear out, experiences, trail support and small upgrades they never buy themselves.',
   keyword: 'gifts for mountain bikers who have everything',
-  date: '2026-10-15',
+  date: '2026-10-11',
   lede: 'Short answer: nobody has everything that wears out. Give consumables, a day out, a membership that keeps their trails open, or the small upgrade they keep putting off.',
   body: `
 <h2>The short answer</h2>

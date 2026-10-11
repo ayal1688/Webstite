@@ -4,7 +4,7 @@ export default {
   short: 'Christmas gifts for e-bike riders',
   description: 'Christmas gifts for e-bike and e-MTB riders: stocking fillers, under-the-tree picks, big ones, and when to order made-to-order gifts in time.',
   keyword: 'ebike christmas gifts',
-  date: '2026-10-12',
+  date: '2026-10-11',
   lede: 'Short answer: small things they use up for the stocking, one thing they would not buy themselves for under the tree, and order anything printed or made to order by late November.',
   body: `
 <h2>The short answer</h2>
